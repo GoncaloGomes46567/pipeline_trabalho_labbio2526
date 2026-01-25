@@ -11,26 +11,28 @@ def procurar_gene(gene_id):
         record = Entrez.read(handle)
         handle.close()
         return record["IdList"]
+	
     except Exception as e:
-	print(f"Erro na pesquisa do gene:{e}")
-        return[]
+						print(f"Erro na pesquisa do gene:{e}")
+						return[]
 
 def buscar_gene_db(gene_id, output_dir):
-    try:
-       handle_search: Entrez.esearch(db = "nucleotide", term = f"{gene_id}[Gene ID]", retmax = 1)
-       record_seach = Entrez.read(handle_search)
-       nucleotide_ids = record_seach["IdList"]
+	try:
+		handle_search: Entrez.esearch(db = "nucleotide", term = f"{gene_id}[Gene ID]", retmax = 1)
+		record_seach = Entrez.read(handle_search)
+		nucleotide_ids = record_seach["IdList"]
+		handle_search.close()
+	   
+		if not nucleotide_ids:
+			print(f"Nenhuma sequência encontrada para o gene {gene_id}.")
+			return None, None
        
-       if not nucleotide_ids:
-	      print(f"Nenhuma sequência encontrada para o gene {gene_id}.")
-	      return None, None
+    	seq_id = nucleotide_ids[0]
+    	print(f"A fazer download da sequência de nucleóitdos (ID : {seq_id})...")
        
-       seq_id = nucleotide_ids[0]
-       print(f"A fazer download da sequência de nucleóitdos (ID : {seq_id})...")
-       
-       handle_fetch = Entrez.efetch(db="nucleotide", id = seq_id, rettype = "gb", retmode = "text")
-       data = handle_fetch.read()
-       handle_fetch.close()
+    	handle_fetch = Entrez.efetch(db="nucleotide", id = seq_id, rettype = "gb", retmode = "text")
+    	data = handle_fetch.read()
+    	handle_fetch.close()
 
 	filename = os.path.join(output_dir, f"gene_{gene_id}.gb")
 	with open(filename, "w") as f:
