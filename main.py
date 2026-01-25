@@ -28,7 +28,7 @@ def main():
 
 	args = parser.parse_args()
 	if not os.path.exists(args.output):
-		is.makedirs(args.output)
+		os.makedirs(args.output, exist_ok = True)
 
 	ncbi_ops.setup_entrez(args.email)
 
