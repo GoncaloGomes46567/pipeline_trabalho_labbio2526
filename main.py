@@ -3,17 +3,30 @@ import os
 import sys
 from src import ncbi, analisa, blast_phylo, msa_ops
 
+
+def inputs():
+	email = input("Insere o teu email:").strip()
+	while "@" not in email or email == "":
+		print("E-mail inválido")
+		email = input("Insere o teu email:")
+	gene = input("Insere o teu gene").strip():
+	while gene == "":
+		print("Gene inválido")
+		gene = input("Insere o teu gene")
+	return email, gene
+
+
 def main():
 	parser = argparse.ArgumentParser(description = "Pipeline Genética Completa)")
 	parser.add_argument("--email", required = True, help="Email para o NCBI")
 	parser.add_argument("--gene_id", required = True, help = "ID do gene")
 	parser.add_argument("--output", default = "data", help = "Pasta de saída")
-	parser.add_argument("--filter_name, default = None, help = "Filtro de nome da proteína")
+	parser.add_argument("--filter_name", default = None, help = "Filtro de nome da proteína")
 	parser.add_argument("--clustal_path", default = "clustalw2", help = "Path para o executável do ClustalW. Se instalado no sistema, deixa o padrão.")
 
 	args = parser.parse_args()
 	if not os.path.exists(args.output):
-		is.makedirs(args.output)
+		os.makedirs(args.output, exist_ok = True)
 
 	ncbi_ops.setup_entrez(args.email)
 
@@ -24,13 +37,22 @@ def main():
 
 	analisa.analisar_propriedades(faa_file)
 
-	xml_file:
-		hits_file = blast_phylo.processar_blast_e_salvar_hits(xml_file, args.output, faa_file)
-		if hits_file:
-			aln_file = msa_ops.realizar_alinhamento_clustalw(hits_file, args.output, args.clustal_path)
+	if xml_file:
+    hits_file = blast_phylo.processar_blast_e_salvar_hits(
+        xml_file,
+        args.output,
+        faa_file
+    )
 
-			if aln_file:
-				blast_phylo.gerar_arvore_phylo(aln_file, args.output)
+    if hits_file:
+        aln_file = msa_ops.realizar_alinhamento_clustalw(
+            hits_file,
+            args.output,
+            args.clustal_path
+        )
+
+        if aln_file:
+            blast_phylo.gerar_arvore_phylo(aln_file, args.output)
 
 if __name__ == "__main__":
 	main()
