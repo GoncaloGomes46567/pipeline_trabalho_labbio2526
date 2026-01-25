@@ -14,6 +14,11 @@ def inputs():
 		print("Gene inválido")
 		gene = input("Insere o teu gene")
 	return email, gene
+<<<<<<< HEAD
+=======
+	
+	
+>>>>>>> d3a363ac8ab72fa2d1ad6690e5e71f3e88322294
 
 
 def main():
