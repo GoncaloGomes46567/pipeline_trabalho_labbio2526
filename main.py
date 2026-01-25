@@ -37,22 +37,22 @@ def main():
 
     analisa.analisar_propriedades(faa_file)
 
+    print("\n--- A iniciar o BLAST remoto... Isto pode demorar alguns minutos. ---")
+    xml_file = blast_phylo.aplica_blast(faa_file, args.output)
+    
     if xml_file:
-        hits_file = blast_phylo.processar_blast_e_salvar_hits(
-            xml_file,
-            args.output,
-            faa_file
-        )
+        hits_file = blast_phylo.processar_blast_e_salvar_hits(xml_file, args.output)
 
-    if hits_file:
-        aln_file = msa_ops.realizar_alinhamento_clustalw(
-            hits_file,
-            args.output,
-            args.clustal_path
-        )
+        if hits_file:
+         
+            aln_file = msa_ops.realizar_alinhamento_clustalw(
+                hits_file, 
+                args.output, 
+                args.clustal_path
+            )
 
-    if aln_file:
-        blast_phylo.gerar_arvore_phylo(aln_file, args.output)
-
+            if aln_file:
+                # 7. Árvore em ASCII
+                blast_phylo.gerar_arvore_simples(aln_file, args.output)
 if __name__ == "__main__":
 	main()
