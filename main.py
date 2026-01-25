@@ -9,22 +9,20 @@ def inputs():
 	while "@" not in email or email == "":
 		print("E-mail inválido")
 		email = input("Insere o teu email:")
-	gene = input("Insere o teu gene").strip():
+	gene = input("Insere o teu gene").strip()
 	while gene == "":
 		print("Gene inválido")
 		gene = input("Insere o teu gene")
 	return email, gene
-<<<<<<< HEAD
-=======
-	
-	
->>>>>>> d3a363ac8ab72fa2d1ad6690e5e71f3e88322294
+
 
 
 def main():
 	parser = argparse.ArgumentParser(description = "Pipeline Genética Completa)")
 	parser.add_argument("--email", required = True, help="Email para o NCBI")
 	parser.add_argument("--gene_id", required = True, help = "ID do gene")
+	parser.add_argument("--xml_file", required=True, help= "Fucgeuri XML do BLAST")
+	parser.add_argument("--faa_file", required=True, help = "Ficheiro FASTA (.faa)")
 	parser.add_argument("--output", default = "data", help = "Pasta de saída")
 	parser.add_argument("--filter_name", default = None, help = "Filtro de nome da proteína")
 	parser.add_argument("--clustal_path", default = "clustalw2", help = "Path para o executável do ClustalW. Se instalado no sistema, deixa o padrão.")
@@ -43,20 +41,20 @@ def main():
 	analisa.analisar_propriedades(faa_file)
 
 	if xml_file:
-    hits_file = blast_phylo.processar_blast_e_salvar_hits(
+		hits_file = blast_phylo.processar_blast_e_salvar_hits(
         xml_file,
         args.output,
         faa_file
     )
 
-    if hits_file:
-        aln_file = msa_ops.realizar_alinhamento_clustalw(
+	if hits_file:
+		aln_file = msa_ops.realizar_alinhamento_clustalw(
             hits_file,
             args.output,
             args.clustal_path
         )
 
-        if aln_file:
+	if aln_file:
             blast_phylo.gerar_arvore_phylo(aln_file, args.output)
 
 if __name__ == "__main__":
