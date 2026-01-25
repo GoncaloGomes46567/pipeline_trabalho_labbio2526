@@ -45,7 +45,7 @@ def main():
 
         if hits_file:
          
-            aln_file = msa_ops.realizar_alinhamento_clustalw(
+            aln_file = msa_ops.realizar_alinhamento_msa(
                 hits_file, 
                 args.output, 
                 args.muscle_path
