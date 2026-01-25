@@ -18,7 +18,7 @@ def main():
 	if not os.path.exists(args.output):
 		os.makedirs(args.output, exist_ok = True)
 
-	ncbi_ops.setup_entrez(args.email)
+	ncbi.setup_entrez(args.email)
 
 	gb_file,  _ = ncbi.buscar_gene_gb(args.gene_id, args.output)
 	if not gb_file: sys.exit("erro no download.")
