@@ -1,0 +1,24 @@
+import os
+from Bio.Align.Applications import ClustalwCommandline
+
+def realizar_alinhamento_clustalw(input fasta, output_dir, clustalw_exe="clustalw2"):
+
+	output_aln = os.path.join(output_dir, "alinhamento.aln")
+
+	print(f"\n--- Iniciando o Alinhamento Múltiplo (ClustalW) ---")
+	print(f"Input: {input_fasta}")
+
+	if not os.path.exists(input fasta):
+		print("Erro: Arquivo FASTA de entrada não encontrado.")
+		return None
+	clustal_cline = ClustalwCommandLine(clustalw_exe, infile = input fasta, outfile = output_aln)
+	
+	try:
+		stdout, stderr = clustal_cline()
+		print(f"Alinhamento concluído com sucesso.")
+		print(f"Arquivo salvo em: {output_aln}")
+		return output_aln
+	except Exception as e:
+		print(f"Erro ao executar ClustalW:  {e}")
+		print("Certifique-se de que o ClustalW está instalado e o caminho está correto.")
+		return None
