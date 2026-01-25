@@ -53,23 +53,30 @@ def extrair_cds_proteina(genbank_file, output_dir, gene_target_name = None):
 
 	for feature in record.features:
 		if feature.type == "CDS":
-			gene_name = feature.qualifiers.get("gene", ["?"])[0]
-			product = feature.qualifiers.get("product",["?"])[0]
-			translation = feature.qualifiers.get("traducao",[""])[0]
+			
+			gene_name = feature.qualifiers.get("gene", [record.id])[0]
+			product = feature.qualifiers.get("product", ["unknown_product"])[0]
+			
+			if "translation" in feature.qualifiers:
+				translation = feature.qualifiers["translation"][0]
+			else:
+				
+				translation = feature.extract(record.seq).translate(to_stop=True)
+
 			match = False
 			if gene_target_name:
-				if gene_target_name.lower() in gene_name.lower() or gene_target_name.lower() in product.lower():
+				if (gene_target_name.lower() in gene_name.lower() or 
+					gene_target_name.lower() in product.lower()):
 					match = True
+			else:
+				match = True
+
 			if match and translation:
-				print(f"\n>>> CDS encontrado com sucesso!")
-				print(f" Gene: {gene_name}")
-				print(f" Produto: {product}")
-				print(f" Tamanho: {len(translation)} aa")
+				print(f"\n>>> CDS encontrado: {product}")
 				with open(output_faa, "w") as f:
-					f.write(f">{gene_name}_{product.replace(" ","-")}\n{translation}\n")
-				print(f" Sequência da proteína salva em: {output_faa}")
-				return output_faa
-	if not cds_found:
-		print("Nenhum CDS com tradução encontrada.")
-		return None
+					f.write(f">{gene_name} | {product}\n{translation}\n")
+				return output_faa «
+
+	print("Aviso: Nenhum CDS válido encontrado neste registo.")
+	return None
 
