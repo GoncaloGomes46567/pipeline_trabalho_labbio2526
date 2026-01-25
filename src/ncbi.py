@@ -75,7 +75,7 @@ def extrair_cds_proteina(genbank_file, output_dir, gene_target_name = None):
 				print(f"\n>>> CDS encontrado: {product}")
 				with open(output_faa, "w") as f:
 					f.write(f">{gene_name} | {product}\n{translation}\n")
-				return output_faa «
+				return output_faa
 
 	print("Aviso: Nenhum CDS válido encontrado neste registo.")
 	return None
