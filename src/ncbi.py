@@ -46,7 +46,7 @@ def buscar_gene_db(gene_id, output_dir):
 		print(f"Erro ao procurar no Genbank: {e}")
 		return None, None
 
-def extrair_cds_proteina(genbank_file, output_dir, gen_target_name = None):
+def extrair_cds_proteina(genbank_file, output_dir, gene_target_name = None):
 	record = SeqIO.read(genbank_file, "genbank")
 	cds_found = False
 	output_faa = os.path.join(output_dir, "protein_sequence.faa")
