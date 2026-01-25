@@ -15,7 +15,7 @@ def main():
     parser.add_argument("--gene_id", help="ID do gene")
     parser.add_argument("--output", default="data", help="Pasta de saída")
     parser.add_argument("--filter_name", default=None, help="Filtro de nome da proteína")
-    parser.add_argument("--clustal_path", default="clustalw2", help="Caminho do ClustalW")
+    parser.add_argument("--muscle_path", default="muscle.exe", help="Caminho para o executável muscle.exe")
 
     args = parser.parse_args()
 
