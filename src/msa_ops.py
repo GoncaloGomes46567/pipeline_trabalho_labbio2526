@@ -1,24 +1,40 @@
 import os
-from Bio.Align.Applications import ClustalwCommandline
+import subprocess
+
+import os
+import subprocess
 
 def realizar_alinhamento_clustalw(input_fasta, output_dir, clustalw_exe="clustalw2"):
+    output_aln = os.path.join(output_dir, "alinhamento.aln")
 
-	output_aln = os.path.join(output_dir, "alinhamento.aln")
+    print(f"\n--- Iniciando o Alinhamento Múltiplo (ClustalW) ---")
+    
+    if not os.path.exists(input_fasta):
+        print(f"Erro: Arquivo {input_fasta} não encontrado.")
+        return None
 
-	print(f"\n--- Iniciando o Alinhamento Múltiplo (ClustalW) ---")
-	print(f"Input: {input_fasta}")
+    comando = [
+        clustalw_exe,
+        f"-INFILE={input_fasta}",
+        f"-OUTFILE={output_aln}",
+        "-OUTPUT=CLUSTAL"
+    ]
 
-	if not os.path.exists(input_fasta):
-		print("Erro: Arquivo FASTA de entrada não encontrado.")
-		return None
-	clustal_cline = ClustalwCommandLine(clustalw_exe, infile = input_fasta, outfile = output_aln)
-	
-	try:
-		stdout, stderr = clustal_cline()
-		print(f"Alinhamento concluído com sucesso.")
-		print(f"Arquivo salvo em: {output_aln}")
-		return output_aln
-	except Exception as e:
-		print(f"Erro ao executar ClustalW:  {e}")
-		print("Certifique-se de que o ClustalW está instalado e o caminho está correto.")
-		return None
+    try:
+        resultado = subprocess.run(comando, capture_output=True, text=True)
+        
+        if resultado.returncode == 0:
+            print(f"Alinhamento concluído com sucesso.")
+            print(f"Arquivo salvo em: {output_aln}")
+            return output_aln
+        else:
+            print(f"Erro no ClustalW: {resultado.stderr}")
+            return None
+            
+    except FileNotFoundError:
+        print(f"Erro: O executável '{clustalw_exe}' não foi encontrado.")
+        print("Certifique-se de que o ClustalW2 está instalado e no PATH do Windows.")
+        return None
+    except Exception as e:
+        print(f"Erro inesperado: {e}")
+        return None
