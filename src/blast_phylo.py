@@ -2,7 +2,6 @@ import os
 from Bio.Blast import NCBIWWW, NCBIXML
 from Bio import SeqIO, Phylo, AlignIO
 from Bio.Phylo.TreeConstruction import DistanceCalculator, DistanceTreeConstructor
-import matplotlib.pyplot as plt
 
 
 def aplica_blast(fasta_file, output_dir):
@@ -44,7 +43,7 @@ def processar_blast_e_salvar_hits(xml_file, output_dir):
 		print(f" Erro ao processar Blast: {e}")
 		return None
 
-def gerar_arvore_simples(hits_fasta, output_dir):
+def gerar_arvore_simples(aln_file, output_dir):
 	print(f"\n--- Gerando Árvore Filogenética ---")
 	try:
 		alignment = AlignIO.read(aln_file, "clustal")
@@ -54,12 +53,16 @@ def gerar_arvore_simples(hits_fasta, output_dir):
 		tree = constructor.nj(dm)
 		tree_file = os.path.join(output_dir, "arvore.xml")
 		Phylo.write(tree, tree_file, "phyloxml")
-		plt.figure(figsize =(10,8))
-		axes = plt.axes(frameon = False)
-		Phylo.draw(tree, axes = axes, do_show = False)
-		png_file = os.path.join(output_dir, "arvore_filogenetica.png")
-		plt.savefig(png_file)
-		print(f"Árvore salva (imagem): {png_file}")
-		print(f"Árvore salva(dados): {tree_file}")
+		print(f"Dados da árvore foram guardados em : {tree_file}")
+		print("\n" + "="*40)
+		print("Estrtura da Árvore Filogenética:")
+		print("\n" + "="*40)
+		Phylo.draw_ascii(tree)
+		print("\n" + "="*40)
+		txt_tree_file = os.path.join(output_dir, "arvore.txt")
+		with open(txt_tree_file, "w") as f:
+			Phylo.draw_ascii(tree, file=f)
+		print(f"Árvore ASCII salva em: {txt_tree_file}")
+		return tree_file
 	except Exception as e:
 		print(f"Erro ao gerar a árvore: {e}")
