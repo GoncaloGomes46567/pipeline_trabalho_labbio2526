@@ -44,25 +44,40 @@ def processar_blast_e_salvar_hits(xml_file, output_dir):
 		return None
 
 def gerar_arvore_simples(aln_file, output_dir):
-	print(f"\n--- Gerando Árvore Filogenética ---")
-	try:
-		alignment = AlignIO.read(aln_file, "clustal")
-		calculator = DistanceCalculator("identity")
-		dm = calculator.get_distance(alignment)
-		constructor = DistanceTreeConstructor()
-		tree = constructor.nj(dm)
-		tree_file = os.path.join(output_dir, "arvore.xml")
-		Phylo.write(tree, tree_file, "phyloxml")
-		print(f"Dados da árvore foram guardados em : {tree_file}")
-		print("\n" + "="*40)
-		print("Estrtura da Árvore Filogenética:")
-		print("\n" + "="*40)
-		Phylo.draw_ascii(tree)
-		print("\n" + "="*40)
-		txt_tree_file = os.path.join(output_dir, "arvore.txt")
-		with open(txt_tree_file, "w") as f:
-			Phylo.draw_ascii(tree, file=f)
-		print(f"Árvore ASCII salva em: {txt_tree_file}")
-		return tree_file
-	except Exception as e:
-		print(f"Erro ao gerar a árvore: {e}")
+    print(f"\n--- Gerando Árvore Filogenética (ASCII) ---")
+    
+    if not aln_file or not os.path.exists(aln_file):
+        print("Erro: Arquivo de alinhamento não encontrado.")
+        return None
+
+    try:
+       
+        try:
+            alignment = AlignIO.read(aln_file, "fasta")
+            print("Formato detetado: FASTA")
+        except:
+            alignment = AlignIO.read(aln_file, "clustal")
+            print("Formato detetado: CLUSTAL")
+            
+    
+        calculator = DistanceCalculator("identity")
+        dm = calculator.get_distance(alignment)
+        
+       
+        constructor = DistanceTreeConstructor()
+        tree = constructor.nj(dm)
+        
+      
+        print("\n=== ÁRVORE FILOGENÉTICA (NJ) ===")
+        Phylo.draw_ascii(tree)
+        
+      
+        tree_path = os.path.join(output_dir, "arvore.nwk")
+        Phylo.write(tree, tree_path, "newick")
+        print(f"\nÁrvore salva em: {tree_path}")
+        
+        return tree
+
+    except Exception as e:
+        print(f"Erro ao gerar a árvore: {e}")
+        return None
