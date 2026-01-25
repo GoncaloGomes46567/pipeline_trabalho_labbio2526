@@ -4,18 +4,6 @@ import sys
 from src import ncbi, analisa, blast_phylo, msa_ops
 
 
-def inputs():
-	email = input("Insere o teu email:").strip()
-	while "@" not in email or email == "":
-		print("E-mail inválido")
-		email = input("Insere o teu email:")
-	gene = input("Insere o teu gene").strip()
-	while gene == "":
-		print("Gene inválido")
-		gene = input("Insere o teu gene")
-	return email, gene
-
-
 def main():
 	parser = argparse.ArgumentParser(description = "Pipeline Genética Completa)")
 	parser.add_argument("--email", required = True, help="Email para o NCBI")
