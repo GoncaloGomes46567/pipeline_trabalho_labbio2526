@@ -9,7 +9,7 @@ def inputs():
 	while "@" not in email or email == "":
 		print("E-mail inválido")
 		email = input("Insere o teu email:")
-	gene = input("Insere o teu gene").strip():
+	gene = input("Insere o teu gene").strip()
 	while gene == "":
 		print("Gene inválido")
 		gene = input("Insere o teu gene")
