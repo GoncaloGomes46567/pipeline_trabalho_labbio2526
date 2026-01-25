@@ -3,12 +3,27 @@ import os
 import sys
 from src import ncbi, analisa, blast_phylo, msa_ops
 
+
+def inputs():
+	email = input("Insere o teu email:").strip()
+	while "@" not in email or email == "":
+		print("E-mail inválido")
+		email = input("Insere o teu email:")
+	gene = input("Insere o teu gene").strip():
+	while gene == "":
+		print("Gene inválido")
+		gene = input("Insere o teu gene")
+	return email, gene
+	
+	
+
+
 def main():
 	parser = argparse.ArgumentParser(description = "Pipeline Genética Completa)")
 	parser.add_argument("--email", required = True, help="Email para o NCBI")
 	parser.add_argument("--gene_id", required = True, help = "ID do gene")
 	parser.add_argument("--output", default = "data", help = "Pasta de saída")
-	parser.add_argument("--filter_name, default = None, help = "Filtro de nome da proteína")
+	parser.add_argument("--filter_name", default = None, help = "Filtro de nome da proteína")
 	parser.add_argument("--clustal_path", default = "clustalw2", help = "Path para o executável do ClustalW. Se instalado no sistema, deixa o padrão.")
 
 	args = parser.parse_args()
