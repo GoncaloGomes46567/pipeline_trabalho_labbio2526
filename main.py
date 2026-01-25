@@ -52,7 +52,6 @@ def main():
             )
 
             if aln_file:
-                # 7. Árvore em ASCII
                 blast_phylo.gerar_arvore_simples(aln_file, args.output)
 if __name__ == "__main__":
 	main()
