@@ -31,7 +31,7 @@ def main():
     gb_file, _ = ncbi.buscar_gene_db(args.gene_id, args.output)
     if not gb_file:
         sys.exit("erro no download.")
-    faa_file = ncbi.extrair_cds_proteina(gb_file, args.output, args.filter_name)
+    faa_file = ncbi.extrair_cds_proteina(gb_file, args.output, args.gene_id)
     if not faa_file:
         sys.exit("Erro na extração")
 
