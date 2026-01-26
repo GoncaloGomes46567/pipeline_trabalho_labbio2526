@@ -1,7 +1,7 @@
 import os
 from Bio.Blast import NCBIWWW, NCBIXML
 from Bio import SeqIO, Phylo, AlignIO
-from Bio.SeqRecord import SeqRecord~
+from Bio.SeqRecord import SeqRecord
 from Bio.Seq import Seq
 from Bio.Phylo.TreeConstruction import DistanceCalculator, DistanceTreeConstructor
 
