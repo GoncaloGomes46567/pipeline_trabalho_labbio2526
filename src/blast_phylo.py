@@ -1,6 +1,8 @@
 import os
 from Bio.Blast import NCBIWWW, NCBIXML
 from Bio import SeqIO, Phylo, AlignIO
+from Bio.SeqRecord import SeqRecord~
+from Bio.Seq import Seq
 from Bio.Phylo.TreeConstruction import DistanceCalculator, DistanceTreeConstructor
 
 
@@ -22,7 +24,7 @@ def aplica_blast(fasta_file, output_dir):
 		print(f"Erro no BLAST: {e}")
 		return None
 
-def processar_blast_e_salvar_hits(xml_file, output_dir):
+def processar_blast_e_salvar_hits(xml_file, output_dir, top_hits=10):
 	try:
 		blast_record = NCBIXML.read(open(xml_file))
 		if len(blast_record.alignments) == 0:
@@ -36,9 +38,34 @@ def processar_blast_e_salvar_hits(xml_file, output_dir):
 				hsp = alignment.hsps[0]
 				clean_id = alignment.accession.replace(" ", "_")
 				f.write(f">{clean_id}\n{hsp.sbjct}\n")
+		with open(xml_file) as result_handle:
+			blast_record = NCBIXML.read(result_handle)
+		hits_records = []
+		print(f"{"#":<3} | {"E-value":<5} | {"ID":<15} | {"Descrição"}")
+		print("-" * 80)
 
-		print(f"Sequências dos hits salvas em: {hits_fasta}")
-		return hits_fasta
+		for i, alignment in enumerate(blast_record.alignments):
+			if i >= top_hits:
+				break
+			melhorhsp = alignment.hsps[0]
+			e_value = melhorhsp.expect
+			display_id = alignment.accession
+			descricao = alignment.hit_def[:50] + "..." if len(alignment.hit_def) > 50 else alignment.hit_def
+			print(f"{i+1:<3} | {e_value:<10.2e} | {display_id:<15} | {descricao}")
+			
+			record = SeqRecord(Seq(melhorhsp.sbjct), id=display_id, description=descricao)
+			hits_records.append(record)
+
+		if hits_records:
+			hits_file = os.path.join(output_dir, "blast_hits.fasta")
+			SeqIO.write(hits_records, hits_file, "fasta")
+			print("-" * 80)
+			print(f"Sucesso: {len(hits_records)} sequências salvas em: {hits_file}")
+			return hits_file
+		else:
+			print("Nenhum hit encontrado no BLAST.")
+			return None
+
 	except Exception as e:
 		print(f" Erro ao processar Blast: {e}")
 		return None
