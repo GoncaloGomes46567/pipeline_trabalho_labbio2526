@@ -28,7 +28,7 @@ def main():
 
     ncbi.setup_entrez(args.email)
 
-    gb_file, _ = ncbi.buscar_gene_db(args.gene_id, args.output)
+    gb_file = ncbi.buscar_gene_db(gene_info, args.output)
     if not gb_file:
         sys.exit("erro no download.")
     faa_file = ncbi.extrair_cds_proteina(gb_file, args.output, args.gene_id)
