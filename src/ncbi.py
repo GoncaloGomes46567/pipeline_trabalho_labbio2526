@@ -1,136 +1,138 @@
 import os
 from Bio import Entrez, SeqIO
 
+
 def setup_entrez(email):
     Entrez.email = email
 
-def procurar_gene(gene_id):
-	print(f"A procurar pelo gene {gene_id} na base de dados.")
-	try:
-		handle = Entrez.esearch(db = "gene", term = gene_id, retmax = 10)
-		record = Entrez.read(handle)
-		handle.close()
-		return record["IdList"]
-	except Exception as e:
-		print(f"Erro na pesquisa do gene:{e}")
-		return []
-
 def obter_info_gene_ncbi(gene_id):
-	"""Obtém informações do gene da aba de genes do NCBI"""
-	try:
-		handle = Entrez.efetch(db="gene", id=gene_id, rettype="xml", retmode="xml")
-		record = Entrez.read(handle)
-		handle.close()
-		
-		if record and len(record) > 0:
-			gene_info = record[0]
-			gene_ref = gene_info.get("Gene-ref", {})
-			
-			gene_symbol = gene_ref.get("locus", "Desconhecido")
-			gene_desc = gene_ref.get("desc", "")
-			
-			return {
-				"symbol": gene_symbol,
-				"description": gene_desc,
-				"ncbi_id": gene_id
-			}
-	except Exception as e:
-		print(f"Erro ao obter informações do gene NCBI: {e}")
-	return None
+    try:
+        handle = Entrez.efetch(
+            db="gene",
+            id=gene_id,
+            rettype="xml",
+            retmode="xml"
+        )
+        record = Entrez.read(handle)
+        handle.close()
 
-def validar_gene_encontrado(gene_encontrado, gene_target_info):
-	"""Valida se o gene encontrado corresponde ao gene esperado"""
-	if not gene_target_info:
-		return True
-	
-	gene_encontrado_upper = gene_encontrado.upper()
-	gene_esperado_upper = gene_target_info.get("symbol", "").upper()
-	
-	if gene_encontrado_upper == gene_esperado_upper:
-		return True
-	
-	if gene_esperado_upper in gene_encontrado_upper or gene_encontrado_upper in gene_esperado_upper:
-		return True
-	
-	return False
+        if not record:
+            return None
 
-def buscar_gene_db(gene_id, output_dir):
-	try:
-		handle_search = Entrez.esearch(db = "nucleotide", term = f"{gene_id}[Gene ID]", retmax = 1)
-		record_seach = Entrez.read(handle_search)
-		nucleotide_ids = record_seach["IdList"]
-		handle_search.close()
+        gene = record[0]
+        gene_ref = gene["Entrezgene_gene"]["Gene-ref"]
 
-		if not nucleotide_ids:
-			print(f"Nenhuma sequência encontrada para o gene {gene_id}.")
-			return None, None
+        symbol = gene_ref.get("Gene-ref_locus", "")
+        desc = gene_ref.get("Gene-ref_desc", "")
 
-		seq_id = nucleotide_ids[0]
-		print(f"A fazer download da sequência de nucleóitdos (ID : {seq_id})...")
+        organism = gene["Entrezgene_source"]["BioSource"]["BioSource_org"]["Org-ref"]["Org-ref_taxname"]
 
-		handle_fetch = Entrez.efetch(db="nucleotide", id = seq_id, rettype = "gb", retmode = "text")
-		data = handle_fetch.read()
-		handle_fetch.close()
+        return {
+            "symbol": symbol,
+            "description": desc,
+            "organism": organism,
+            "gene_id": gene_id
+        }
 
-		if not os.path.exists(output_dir):
-			os.makedirs(output_dir)
+    except Exception as e:
+        print(f"Erro ao obter info do gene: {e}")
+        return None
 
-		filename = os.path.join(output_dir, f"gene_{gene_id}.gb")
-		with open(filename, "w") as f:
-			f.write(data)
-		print(f"Arquivo salvo em: {filename}")
-		return filename, seq_id
 
-	except Exception as e:
-		print(f"Erro ao procurar no Genbank: {e}")
-		return None, None
+def buscar_gene_db(gene_info, output_dir):
+    try:
+        term = f"{gene_info['symbol']}[Gene] AND {gene_info['organism']}[Organism]"
 
-def extrair_cds_proteina(genbank_file, output_dir, gene_target_id=None):
+        handle = Entrez.esearch(
+            db="nucleotide",
+            term=term,
+            retmax=10
+        )
+        search = Entrez.read(handle)
+        handle.close()
+
+        if not search["IdList"]:
+            print("Nenhuma sequência nucleotídica encontrada.")
+            return None
+
+        seq_id = search["IdList"][0]
+        print(f"GenBank encontrado: {seq_id}")
+
+        handle = Entrez.efetch(
+            db="nucleotide",
+            id=seq_id,
+            rettype="gb",
+            retmode="text"
+        )
+        data = handle.read()
+        handle.close()
+
+        os.makedirs(output_dir, exist_ok=True)
+        filename = os.path.join(output_dir, f"{gene_info['symbol']}.gb")
+
+        with open(filename, "w") as f:
+            f.write(data)
+
+        return filename
+
+    except Exception as e:
+        print(f"Erro na busca GenBank: {e}")
+        return None
+
+
+def cds_corresponde(feature, gene_info):
+    gene_names = feature.qualifiers.get("gene", [])
+    locus_tags = feature.qualifiers.get("locus_tag", [])
+    products = feature.qualifiers.get("product", [])
+
+    symbol = gene_info["symbol"].lower()
+
+    if symbol in [g.lower() for g in gene_names]:
+        return True
+
+    if symbol in [l.lower() for l in locus_tags]:
+        return True
+
+    for p in products:
+        if symbol in p.lower():
+            return True
+
+    return False
+
+def extrair_cds_proteina(genbank_file, gene_info, output_dir):
     record = SeqIO.read(genbank_file, "genbank")
     output_faa = os.path.join(output_dir, "protein_sequence.faa")
 
-    print(f"A analisar o registo {record.id} à procura do GeneID: {gene_target_id}...")
-
-    
-    gene_target_info = obter_info_gene_ncbi(gene_target_id)
-    if gene_target_info:
-        print(f"Gene esperado do NCBI: {gene_target_info['symbol']}")
-        print(f"Descrição: {gene_target_info['description']}")
+    print(f"A analisar {record.id}")
+    print(f"Gene alvo: {gene_info['symbol']} ({gene_info['gene_id']})")
 
     for feature in record.features:
-        if feature.type == "CDS":
-            db_xrefs = feature.qualifiers.get("db_xref", [])
-            is_target = any(f"GeneID:{gene_target_id}" in xref for xref in db_xrefs)
+        if feature.type != "CDS":
+            continue
 
-            if is_target:
-                gene_name = feature.qualifiers.get("gene", ["Desconhecido"])[0]
-                
-                
-                if not validar_gene_encontrado(gene_name, gene_target_info):
-                    print(f"Aviso: Gene encontrado ({gene_name}) não corresponde ao gene esperado ({gene_target_info['symbol'] if gene_target_info else 'desconhecido'})")
-                    continue
-                
-                translation = None
-                if "translation" in feature.qualifiers:
-                    translation = feature.qualifiers["translation"][0]
-                else:
-                    try:
-                        translation = str(feature.extract(record.seq).translate(to_stop=True))
-                    except Exception as e:
-                        print(f"Erro ao traduzir sequência: {e}")
-                        continue
+        if not cds_corresponde(feature, gene_info):
+            continue
 
-                if translation:
-                    product = feature.qualifiers.get("product", ["Produto desconhecido"])[0]
-                    
-                    print(f"\n  SUCESSO! Foi Encontrado o gene: {gene_name}")
-                    print(f"Produto: {product}")
-                    print(f"GeneID validado: {gene_target_id}")
-                    
-                    with open(output_faa, "w") as f:
-                        f.write(f">{gene_name} | GeneID:{gene_target_id} | {product}\n{translation}\n")
-                    return output_faa
+        gene_name = feature.qualifiers.get("gene", [gene_info["symbol"]])[0]
+        product = feature.qualifiers.get("product", ["Produto desconhecido"])[0]
 
-    print(f"Erro: O GeneID {gene_target_id} não foi encontrado no ficheiro.")
+        if "translation" in feature.qualifiers:
+            protein = feature.qualifiers["translation"][0]
+        else:
+            try:
+                protein = str(feature.extract(record.seq).translate(to_stop=True))
+            except Exception:
+                continue
+
+        print("\nGENE ENCONTRADO!")
+        print(f"Gene: {gene_name}")
+        print(f"Produto: {product}")
+
+        with open(output_faa, "w") as f:
+            f.write(f">{gene_name} | GeneID:{gene_info['gene_id']} | {product}\n")
+            f.write(protein + "\n")
+
+        return output_faa
+
+    print("CDS correspondente não encontrada.")
     return None
-
