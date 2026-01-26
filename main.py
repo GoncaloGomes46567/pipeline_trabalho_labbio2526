@@ -34,10 +34,10 @@ def main():
     if not gb_file:
         sys.exit("Erro no download do GenBank.")
 
-    faa_file = ncbi.extrair_cds_proteina(gb_file, gene_info, args.output)
-    if not faa_file:
-        sys.exit("Erro na extração da proteína.")
 
+    faa_file = ncbi.obter_proteina_por_geneid(args.gene_id, args.output)
+    if not faa_file:
+        sys.exit("Erro ao obter proteína a partir do GeneID.")
 
     analisa.analisar_propriedades(faa_file)
 

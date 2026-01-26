@@ -5,9 +5,9 @@
   <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
   <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
   <BlastOutput_db>nr</BlastOutput_db>
-  <BlastOutput_query-ID>Query_671899</BlastOutput_query-ID>
-  <BlastOutput_query-def>5 | GeneID:1258817 | baseplate hub subunit and tail lysozyme</BlastOutput_query-def>
-  <BlastOutput_query-len>575</BlastOutput_query-len>
+  <BlastOutput_query-ID>Query_7959775</BlastOutput_query-ID>
+  <BlastOutput_query-def>45.2 | GeneID:1258817 | protein GP45.2</BlastOutput_query-def>
+  <BlastOutput_query-len>62</BlastOutput_query-len>
   <BlastOutput_param>
     <Parameters>
       <Parameters_matrix>BLOSUM62</Parameters_matrix>
@@ -20,567 +20,567 @@
 <BlastOutput_iterations>
 <Iteration>
   <Iteration_iter-num>1</Iteration_iter-num>
-  <Iteration_query-ID>Query_671899</Iteration_query-ID>
-  <Iteration_query-def>5 | GeneID:1258817 | baseplate hub subunit and tail lysozyme</Iteration_query-def>
-  <Iteration_query-len>575</Iteration_query-len>
+  <Iteration_query-ID>Query_7959775</Iteration_query-ID>
+  <Iteration_query-def>45.2 | GeneID:1258817 | protein GP45.2</Iteration_query-def>
+  <Iteration_query-len>62</Iteration_query-len>
 <Iteration_hits>
 <Hit>
   <Hit_num>1</Hit_num>
-  <Hit_id>pdb|1K28|A</Hit_id>
-  <Hit_def>Chain A, Tail-associated Lysozyme [Escherichia phage T4]</Hit_def>
-  <Hit_accession>1K28_A</Hit_accession>
-  <Hit_len>584</Hit_len>
+  <Hit_id>gb|XRL29661.1|</Hit_id>
+  <Hit_def>hypothetical protein sutha_CDS0168 [Escherichia phage sutha]</Hit_def>
+  <Hit_accession>XRL29661</Hit_accession>
+  <Hit_len>66</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1177.16</Hsp_bit-score>
-      <Hsp_score>3044</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.0019e-37</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>575</Hsp_identity>
-      <Hsp_positive>575</Hsp_positive>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>2</Hit_num>
-  <Hit_id>gb|XAO16555.1|</Hit_id>
-  <Hit_def>baseplate hub structural protein/lysozyme R [Escherichia phage FL12]</Hit_def>
-  <Hit_accession>XAO16555</Hit_accession>
-  <Hit_len>576</Hit_len>
+  <Hit_id>ref|WP_015969214.1|</Hit_id>
+  <Hit_def>MULTISPECIES: protein GP45.2 [Bacteria] &gt;ref|NP_049668.1| protein GP45.2 [Escherichia phage T4] &gt;ref|YP_002854389.1| gp45.2 hypothetical protein [Escherichia phage RB14] &gt;ref|YP_007004797.1| protein GP45.2 [Escherichia phage wV7] &gt;ref|YP_009030663.1| protein GP45.2 [Escherichia phage vB_EcoM_112] &gt;ref|YP_009098439.1| protein GP45.2 [Escherichia phage RB3] &gt;ref|YP_009102260.1| protein GP45.2 [Enterobacteria phage RB27] &gt;ref|YP_009102528.1| protein GP45.2 [Escherichia phage ECML-134] &gt;ref|YP_009149296.1| protein GP45.2 [Yersinia phage phiD1] &gt;ref|YP_009167867.1| protein GP45.2 [Escherichia phage AR1] &gt;ref|YP_009180830.1| protein GP45.2 [Escherichia phage slur14] &gt;ref|YP_009277696.1| protein GP45.2 [Shigella phage SHFML-11] &gt;ref|YP_009288424.1| protein GP45.2 [Shigella virus SHBML501] &gt;ref|YP_009625192.1| protein GP45.2 [Escherichia phage slur03] &gt;ref|YP_010066937.1| protein GP45.2 [Enterobacteria phage RB18] &gt;ref|YP_010067207.1| protein GP45.2 [Enterobacteria phage T6] &gt;ref|YP_010067474.1| protein GP45.2 [Escherichia phage vB_EcoM_DalCa] &gt;ref|YP_010070709.1| protein GP45.2 [Escherichia phage vB_EcoM_G9062] &gt;ref|YP_010071259.1| protein GP45.2 [Escherichia phage vB_EcoM_KAW1E185] &gt;ref|YP_010071532.1| protein GP45.2 [Escherichia phage KIT03] &gt;ref|YP_010071799.1| protein GP45.2 [Escherichia phage vB_EcoM_Lutter] &gt;ref|YP_010073701.1| protein GP45.2 [Escherichia phage T2] &gt;ref|YP_010074705.1| protein GP45.2 [Escherichia phage teqskov] &gt;ref|YP_010074778.1| protein GP45.2 [Escherichia phage YUEEL01] &gt;ref|YP_010076528.1| protein GP45.2 [Shigella phage Sf23] &gt;ref|YP_010076939.1| protein GP45.2 [Yersinia phage fPS-2] &gt;ref|YP_010099863.1| protein GP45.2 [Escherichia phage MLF4] &gt;ref|YP_010106188.1| protein GP45.2 [Phage NBEco003] &gt;sp|P07878.1| RecName: Full=Protein gp45.2; AltName: Full=Gene product 45.2; Short=gp45.2 [Tequatrovirus T4] &gt;gb|ADJ39771.1| hypothetical protein T4Tp054 [Enterobacteria phage T4T] &gt;gb|AIT73062.1| hypothetical protein RB5_053 [Enterobacteria phage RB5] &gt;gb|AIT73333.1| hypothetical protein RB6_053 [Enterobacteria phage RB6] &gt;gb|AIT73604.1| hypothetical protein RB7_053 [Enterobacteria phage RB7] &gt;gb|AIT73876.1| hypothetical protein RB9_053 [Enterobacteria phage RB9] &gt;gb|AIT74148.1| hypothetical protein RB10_053 [Enterobacteria phage RB10] &gt;gb|AIT74967.1| hypothetical protein RB55_p055 [Enterobacteria phage RB55] &gt;gb|AIT75239.1| hypothetical protein RB59_055 [Enterobacteria phage RB59] &gt;gb|AKE46070.1| hypothetical protein ECTP7_01203 [Escherichia coli O157 typing phage 7] &gt;gb|AXC34220.1| hypothetical protein JB75_0216 [Escherichia phage vB_EcoM_JB75] &gt;gb|EDU9380887.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Mikawasima] &gt;gb|EFY2706582.1| hypothetical protein [Shigella sonnei] &gt;gb|EHY3472300.1| hypothetical protein [Salmonella enterica] &gt;gb|EIO3778025.1| hypothetical protein [Shigella flexneri] &gt;gb|QDF15080.1| hypothetical protein Sa45lw_55 [Escherichia phage vB_EcoM-Sa45lw] &gt;gb|QEG05904.1| hypothetical protein JK38_00054 [Shigella phage JK38] &gt;gb|QHB43084.1| hypothetical protein KRT47_gp56 [Shigella phage KRT47] &gt;gb|QLF81261.1| hypothetical protein FT_0211 [Escherichia phage vB_EcoM_FT] &gt;gb|QLF85596.1| hypothetical protein PYps14T_165 [Yersinia phage PYps14T] &gt;gb|QNJ49890.1| hypothetical protein PYps15T_165 [Yersinia phage PYps15T] &gt;gb|QNJ50152.1| hypothetical protein PYps32T_160 [Yersinia phage PYps32T] &gt;gb|QNJ50418.1| hypothetical protein PYps35T_163 [Yersinia phage PYps35T] &gt;gb|QNJ50678.1| hypothetical protein PYps47T_159 [Yersinia phage PYps47T] &gt;gb|QNJ50943.1| hypothetical protein PYps55T_162 [Yersinia phage PYps55T] &gt;gb|QNR52802.1| hypothetical protein [Escherichia phage vb_EcoM_bov9_1] &gt;gb|QOC57045.1| hypothetical protein [Escherichia phage vb_EcoM_bov10K1] &gt;gb|QXN68152.1| hypothetical protein JK1_0057 [Escherichia phage JK1] &gt;gb|QXV73244.1| rIIB protector from prophage-induced early lysis [Escherichia phage vB_EcoM_Shinka] &gt;gb|QXV78607.1| hypothetical protein bas40_0166 [Escherichia phage FelixPlatter] &gt;gb|QXV82147.1| hypothetical protein bas37_0166 [Escherichia phage KarlGJung] &gt;gb|QXV86004.1| hypothetical protein bas35_0167 [Escherichia phage WilhelmHis] &gt;gb|QYW00107.1| hypothetical protein [Escherichia phage vB_EcoM_FJ1] &gt;gb|QZI78740.1| hypothetical protein 101112UKE3-1_043 [Escherichia phage vB_EcoM-101112UKE3-1] &gt;gb|QZI79320.1| hypothetical protein 101117BS1_044 [Escherichia phage vB_EcoM-101117BS1] &gt;gb|QZI80248.1| hypothetical protein CHD2BS1_042 [Escherichia phage vB_EcoM-CHD2BS1] &gt;gb|QZI80690.1| hypothetical protein CHD16UKE1_042 [Escherichia phage vB_EcoM-CHD16UKE1] &gt;gb|QZI80984.1| hypothetical protein CHD94UKE2_045 [Escherichia phage vB_EcoM-CHD94UKE2] &gt;gb|QZI81430.1| hypothetical protein G3F6_042 [Escherichia phage vB_EcoM-G3F6] &gt;gb|QZI81722.1| hypothetical protein G3F7_044 [Escherichia phage vB_EcoM-G3F7] &gt;gb|QZI82010.1| hypothetical protein G3F8_042 [Escherichia phage vB_EcoM-G3F8] &gt;gb|QZI82300.1| hypothetical protein G3F9_042 [Escherichia phage vB_EcoM-G3F9] &gt;gb|QZI82592.1| hypothetical protein G3F10_044 [Escherichia phage vB_EcoM-G3F10] &gt;gb|QZI82879.1| hypothetical protein G3G6_042 [Escherichia phage vB_EcoM-G3G6] &gt;gb|QZI83169.1| hypothetical protein G3G7_042 [Escherichia phage vB_EcoM-G3G7] &gt;gb|QZI83462.1| hypothetical protein PM105_044 [Escherichia phage vB_EcoM-PM105] &gt;gb|QZI83754.1| hypothetical protein PM107_044 [Escherichia phage vB_EcoM-PM107] &gt;gb|QZI84045.1| hypothetical protein PM123_044 [Escherichia phage vB_EcoM-PM123] &gt;gb|QZI84708.1| hypothetical protein PM108_00041 [Escherichia phage vB_EcoM-PM108] &gt;gb|QZI84973.1| hypothetical protein PM136_00041 [Escherichia phage vB_EcoM-PM136] &gt;gb|UCR81676.1| hypothetical protein G157_00250 [Escherichia phage vB_EcoM-G157lw] &gt;gb|UEN68567.1| hypothetical protein [Escherichia phage MLP2] &gt;gb|UEP18324.1| exonuclease subunit [Escherichia phage APTC-EC-2A] &gt;gb|UFK27415.1| hypothetical protein LDJ77_00167 [Escherichia phage UoN_LDJ77_1] &gt;gb|UGO55182.1| putative recombination endonuclease subunit [Escherichia phage JLBYU31] &gt;gb|UIS74509.1| hypothetical protein [Escherichia phage EC101] &gt;gb|UJP29554.1| hypothetical protein UAB60_gp055 [Salmonella phage UAB_60] &gt;gb|ULA51942.1| hypothetical protein RPN226_gp007 [Escherichia phage vB_EcoM-RPN226] &gt;gb|ULF50491.1| hypothetical protein CPTSV76_238 [Enterobacteria phage SV76] &gt;gb|UMM76018.1| hypothetical protein [Escherichia phage UTI-E2] &gt;gb|UMM76283.1| hypothetical protein [Escherichia phage UTI-E4] &gt;gb|UNI72795.1| hypothetical protein IsfPm2_gp53c [Proteus phage Isf-Pm2] &gt;gb|UPW39919.1| recombination endonuclease subunit [Escherichia phage vB_EcoM_ESCO58] &gt;gb|URP85294.1| hypothetical protein ES19_0160 [Escherichia phage ES19] &gt;gb|URY14197.1| hypothetical protein [Shigella phage ESh28] &gt;gb|URY14520.1| hypothetical protein [Shigella phage ESh29] &gt;gb|URY15194.1| hypothetical protein [Shigella phage ESh32] &gt;gb|USM81387.1| hypothetical protein PM133_00041 [Escherichia phage vB_EcoM-PM133] &gt;gb|UTN90566.1| hypothetical protein [Escherichia phage vB_Eco-B1.1] &gt;gb|UTQ80298.1| recombination endonuclease subunit [Escherichia phage ECP52] &gt;gb|UVD36742.1| hypothetical protein A2_gp56 [Shigella phage A2] &gt;gb|UVX66278.1| MAG: hypothetical protein [Bacteriophage sp.] &gt;gb|WAE77660.1| hypothetical protein vBEcoMWL3_01195 [Escherichia phage ph0021] &gt;gb|WAK44038.1| hypothetical protein [Escherichia virus CAM-21] &gt;gb|WBF82447.1| hypothetical protein a15_174 [Escherichia phage a15] &gt;gb|WBF83014.1| hypothetical protein a48_174 [Escherichia phage a48] &gt;gb|WCD43141.1| hypothetical protein ECML123-2_000034 [Escherichia phage ECML-123-2] &gt;gb|WCD43766.1| hypothetical protein ECML363_000046 [Escherichia phage ECML-363] &gt;gb|WEW53808.1| hypothetical protein Phage107_056 [Escherichia phage 107] &gt;gb|WJJ57463.1| hypothetical protein [Escherichia phage 4E10] &gt;gb|WKV22986.1| hypothetical protein LOC1_182 [Escherichia phage BW-1] &gt;gb|WLY85918.1| hypothetical protein 303Ecol101PP_00239 [Escherichia phage 303Ecol101PP] &gt;gb|WNV49198.1| hypothetical protein [Escherichia phage L14] &gt;gb|WPJ70972.1| hypothetical protein [Escherichia phage vB-Eco-KMB26] &gt;gb|WRO06390.1| hypothetical protein JY01_161 [Escherichia phage JY01] &gt;gb|WWT37168.1| hypothetical protein [Escherichia phage UPWr_E2] &gt;gb|WWY65669.1| hypothetical protein Tiger2B_172 [Escherichia phage 121/2022-2B] &gt;gb|WYA78657.1| hypothetical protein [Escherichia phage EC.W5-4] &gt;gb|WYA84063.1| hypothetical protein MLXIVXXD_CDS0144 [Pseudomonas phage PsgM02F] &gt;gb|WYD62656.1| hypothetical protein [Escherichia phage EC.W15-4] &gt;gb|WYM30616.1| hypothetical protein [Escherichia phage EC.W13-3] &gt;gb|XAH00975.1| hypothetical protein [Escherichia phage vB_EcoM_ECO78] &gt;gb|XAO16744.1| hypothetical protein [Escherichia phage FL12] &gt;gb|XAO16879.1| hypothetical protein [Escherichia phage FL23] &gt;gb|XAO17716.1| hypothetical protein [Escherichia phage FL44] &gt;gb|XDG31054.1| hypothetical protein [Salmonella phage vB_SenS_Jbel] &gt;gb|XDJ03881.1| hypothetical protein [Escherichia phage EC.W15-3] &gt;gb|XGU05373.1| hypothetical protein RHPQLESZ_CDS0214 [Escherichia phage Pu-Krd-SF1] &gt;gb|XGU05636.1| hypothetical protein SMWJCPRG_CDS0214 [Escherichia phage Pu-Krd-SF2] &gt;gb|XLZ96401.1| hypothetical protein [Escherichia phage A6-6] &gt;gb|XPN51838.1| hypothetical protein BHLQRRBO_CDS0050 [Escherichia phage Pu-Krd-SF5] &gt;gb|XPN52264.1| hypothetical protein EWJVMHKS_CDS0214 [Escherichia phage Pu-Krd-SF6] &gt;gb|XPN52527.1| hypothetical protein QUZFNKHI_CDS0213 [Escherichia phage Pu-Krd-SF7] &gt;gb|XPN57751.1| hypothetical protein [Escherichia phage vB_EcoM_Maryam] &gt;gb|XQQ51399.1| hypothetical protein FHBNEHLH_00261 [Escherichia phage vB_Eco_BCPEco_001] &gt;gb|XQQ51619.1| hypothetical protein MEIKEBFM_00215 [Shigella phage vB_Shso_BCPShso_001] &gt;gb|XQQ51876.1| hypothetical protein ADFNMDNB_00099 [Salmonella phage vB_Sen_BCPSen_003] &gt;gb|XQU49075.1| hypothetical protein [Escherichia phage EC.W14-2] &gt;gb|XQW41092.1| hypothetical protein [Escherichia phage vB_EcoT_BCU-2] &gt;gb|XVC02135.1| hypothetical protein HFTMJLKY_CDS0174 [Escherichia phage TOPO13] &gt;gb|XZY10835.1| hypothetical protein NQKFUKRZ_CDS0174 [Escherichia phage Lucat] &gt;gb|YCL01892.1| hypothetical protein HVSQRIJN_CDS0262 [Escherichia phage Rep13-52] &gt;emb|CAD2272466.1| hypothetical protein MEKHABCK_00053 [Shigella phage vB_SsoM_JK08] &gt;emb|CAH2619021.1| Phage protein [Escherichia phage vB_EcoM_KMB26] &gt;emb|CAJ1578277.1| Phage protein [Escherichia phage vB_Eco_Solly] &gt;emb|CAL1327300.1| Phage protein [Escherichia phage vB_Eco_EL] &gt;emb|CAL1327812.1| Phage protein [Escherichia phage vB_Eco_Geo] &gt;emb|CAL1641021.1| Phage protein [Escherichia phage vB_Eco_BGP] &gt;emb|CAO2439628.1| hypothetical protein KCP072_0164 [Escherichia phage KCP_072] &gt;emb|CAO2439696.1| hypothetical protein KCP096_0164 [Escherichia phage KCP_096] &gt;emb|CUL02736.1| hypothetical protein [Escherichia phage slur08] &gt;dbj|BCT70158.1| hypothetical protein [Escherichia phage NiC89] &gt;tpg|DAO78047.1| MAG TPA: hypothetical protein [Caudoviricetes sp.]</Hit_def>
+  <Hit_accession>WP_015969214</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1176</Hsp_bit-score>
-      <Hsp_score>3041</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.03779e-37</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>573</Hsp_identity>
-      <Hsp_positive>575</Hsp_positive>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIVVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDVG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTI+VEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRID+G</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>3</Hit_num>
-  <Hit_id>ref|WP_179226779.1|</Hit_id>
-  <Hit_def>glycoside hydrolase family protein [Escherichia coli] &gt;ref|YP_009167966.1| baseplate hub subunit and tail lysozyme [Escherichia phage AR1] &gt;ref|YP_009210336.1| baseplate hub subunit and tail lysozyme [Escherichia phage slur02] &gt;ref|YP_009279141.1| baseplate hub subunit and tail lysozyme [Shigella phage SHFML-26] &gt;ref|YP_009625367.1| baseplate hub subunit and tail lysozyme [Escherichia phage slur04] &gt;ref|YP_010067032.1| baseplate hub subunit and tail lysozyme [Enterobacteria phage RB18] &gt;ref|YP_010070253.1| baseplate hub subunit and tail lysozyme [Escherichia phage vB_EcoM_G4498] &gt;ref|YP_010073218.1| baseplate hub subunit and tail lysozyme [Escherichia phage PE37] &gt;ref|YP_010073517.1| baseplate hub subunit and tail lysozyme [Escherichia phage PP01] &gt;ref|YP_010075690.1| baseplate hub subunit and tail lysozyme [Serratia phage PhiZZ30] &gt;gb|ENR9336244.1| glycoside hydrolase family protein [Shigella sonnei] &gt;gb|QHR63997.1| putative baseplate hub subunit and tail lysozyme [Escherichia phage teqsoen] &gt;gb|QXV76118.1| baseplate hub and tail lysozyme [Escherichia phage AndreasVesalius] &gt;gb|URY13298.1| baseplate hub structural protein / lysozyme R [Shigella phage ESh25] &gt;gb|URY15603.1| baseplate hub structural protein / lysozyme R [Shigella phage ESh33] &gt;gb|URY15784.1| baseplate hub structural protein / lysozyme R [Shigella phage ESH35] &gt;gb|UVD36837.1| glycoside hydrolase family protein [Shigella phage A2] &gt;gb|UVM85366.1| MAG: OB domain protein [Bacteriophage sp.] &gt;gb|XPN57660.1| tail-associated lysozyme chain A [Escherichia phage vB_EcoM_Maryam] &gt;gb|XQW41001.1| tail-associated lysozyme [Escherichia phage vB_EcoT_BCU-2] &gt;gb|YAF79688.1| baseplate hub subunit and tail lysozyme [Escherichia phage CBDS-06] &gt;gb|YCJ26677.1| putative baseplate central spike complex protein [Escherichia phage PG3] &gt;emb|CAJ1092883.1| Phage baseplate hub structural protein / Phage lysozyme R (EC [Escherichia phage vB_Eco_QOTSP] &gt;emb|CAL1328185.1| Baseplate hub structural protein and lysozyme R [Escherichia phage vB_Eco_Some] &gt;emb|CAO2440837.1| baseplate hub subunit and tail lysozyme [Escherichia phage KCP_072] &gt;emb|CAO2440848.1| baseplate hub subunit and tail lysozyme [Escherichia phage KCP_096] &gt;emb|CUL02921.1| hypothetical protein [Escherichia phage slur11] &gt;emb|CUL03707.1| hypothetical protein [Escherichia phage slur13] &gt;dbj|BBI58278.1| tail-associated lysozyme [Shigella phage SfPhi01] &gt;dbj|BCT70250.1| hypothetical protein [Escherichia phage NiC89]</Hit_def>
-  <Hit_accession>WP_179226779</Hit_accession>
-  <Hit_len>575</Hit_len>
+  <Hit_id>ref|YP_010076672.1|</Hit_id>
+  <Hit_def>protein GP45.2 [Shigella phage SH7] &gt;gb|APC45233.1| recombination endonuclease subunit [Shigella phage SH7] &gt;gb|UAV89018.1| hypothetical protein U115_055 [Escherichia phage U115]</Hit_def>
+  <Hit_accession>YP_010076672</Hit_accession>
+  <Hit_len>66</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1176</Hsp_bit-score>
-      <Hsp_score>3041</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>1.30417e-37</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>574</Hsp_identity>
-      <Hsp_positive>575</Hsp_positive>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIVVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTI+VEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>4</Hit_num>
-  <Hit_id>emb|VUF55544.1|</Hit_id>
-  <Hit_def>hypothetical protein [Escherichia phage T4_ev151]</Hit_def>
-  <Hit_accession>VUF55544</Hit_accession>
-  <Hit_len>576</Hit_len>
+  <Hit_id>gb|EKD6720739.1|</Hit_id>
+  <Hit_def>hypothetical protein [Shigella sonnei]</Hit_def>
+  <Hit_accession>EKD6720739</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1176</Hsp_bit-score>
-      <Hsp_score>3041</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>1.77792e-37</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>573</Hsp_identity>
-      <Hsp_positive>575</Hsp_positive>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGIEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDVG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYG+EVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRID+G</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTIPEVKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLTIPE+KRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>5</Hit_num>
-  <Hit_id>ref|WP_015969305.1|</Hit_id>
-  <Hit_def>MULTISPECIES: glycoside hydrolase family protein [Bacteria] &gt;ref|NP_049757.1| baseplate hub subunit and tail lysozyme [Escherichia phage T4] &gt;ref|YP_010069710.1| baseplate hub subunit and tail lysozyme [Escherichia phage vB_EcoM-G28] &gt;sp|P16009.2| RecName: Full=Pre-baseplate central spike protein Gp5; Short=Pre-Gp5; AltName: Full=Peptidoglycan hydrolase gp5; Contains: RecName: Full=Baseplate central spike protein Gp5*; AltName: Full=Mature Gp5; Contains: RecName: Full=Gp5C [Tequatrovirus T4] &gt;pdb|1PDL|A Chain A, Tail-associated lysozyme [Tequatrovirus T4] &gt;pdb|1PDL|B Chain B, Tail-associated lysozyme [Tequatrovirus T4] &gt;pdb|1PDL|C Chain C, Tail-associated lysozyme [Tequatrovirus T4] &gt;pdb|5IV5|YA Chain YA, Peptidoglycan hydrolase gp5 [Tequatrovirus T4] &gt;pdb|5IV5|YB Chain YB, Peptidoglycan hydrolase gp5 [Tequatrovirus T4] &gt;pdb|5IV5|YC Chain YC, Peptidoglycan hydrolase gp5 [Tequatrovirus T4] &gt;pdb|9MKB|gE Chain gE, gp5, baseplate central spike protein [Escherichia phage T4] &gt;pdb|9MKB|gG Chain gG, gp5, baseplate central spike protein [Escherichia phage T4] &gt;pdb|9MKB|gH Chain gH, gp5, baseplate central spike protein [Escherichia phage T4] &gt;gb|ADJ39865.1| baseplate hub subunit and tail lysozyme [Enterobacteria phage T4T] &gt;gb|AIT75059.1| base plate hub subunit and lysozyme [Enterobacteria phage RB55] &gt;gb|AIT75332.1| base plate hub subunit and lysozyme [Enterobacteria phage RB59] &gt;gb|AAD42482.1| gp5 baseplate hub subunit and tail lysozyme [Escherichia phage T4] &gt;gb|AVH85979.1| putative baseplate hub subunit and tail lysozyme [Escherichia phage vB_EcoM-G28]</Hit_def>
-  <Hit_accession>WP_015969305</Hit_accession>
-  <Hit_len>575</Hit_len>
+  <Hit_id>ref|YP_010077320.1|</Hit_id>
+  <Hit_def>protein GP45.2 [Yersinia phage PYPS2T] &gt;ref|YP_010091362.1| protein GP45.2 [Yersinia phage fPS-65] &gt;gb|QNJ49622.1| hypothetical protein PYps11T_165 [Yersinia phage PYps11T] &gt;gb|QOI70833.1| hypothetical protein PYps10T_165 [Yersinia phage PYps10T] &gt;gb|AYJ74572.1| recombination endonuclease subunit [Yersinia phage PYPS2T] &gt;gb|QOI70297.1| hypothetical protein PYPS2T_165 [Yersinia phage PYPS2T] &gt;emb|VEV89227.1| Phage protein [Yersinia phage fPS-65]</Hit_def>
+  <Hit_accession>YP_010077320</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1175.61</Hsp_bit-score>
-      <Hsp_score>3040</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>1.77792e-37</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>575</Hsp_identity>
-      <Hsp_positive>575</Hsp_positive>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTVPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLT+PEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>6</Hit_num>
-  <Hit_id>ref|YP_009102621.1|</Hit_id>
-  <Hit_def>baseplate hub subunit and tail lysozyme [Escherichia phage ECML-134] &gt;gb|AFO10672.1| phage baseplate hub [Escherichia phage ECML-134] &gt;gb|URQ05340.1| baseplate hub [Escherichia phage vB_EcoM_SCS4]</Hit_def>
-  <Hit_accession>YP_009102621</Hit_accession>
-  <Hit_len>575</Hit_len>
+  <Hit_id>ref|WP_088209775.1|</Hit_id>
+  <Hit_def>protein GP45.2 [Escherichia coli] &gt;ref|YP_009110873.1| protein GP45.2 [Shigella phage pSs-1] &gt;ref|YP_009148502.1| protein GP45.2 [Escherichia phage HY01] &gt;ref|YP_009153655.1| protein GP45.2 [Yersinia phage PST] &gt;ref|YP_009279048.1| protein GP45.2 [Shigella phage SHFML-26] &gt;ref|YP_010066597.1| protein GP45.2 [Enterobacteria phage vB_EcoM_IME340] &gt;ref|YP_010072073.1| protein GP45.2 [Escherichia phage vB_EcoM_NBG2] &gt;ref|YP_010075860.1| protein GP45.2 [Shigella phage CM8] &gt;ref|YP_010091089.1| protein GP45.2 [Yersinia phage fPS-90] &gt;ref|YP_010094625.1| protein GP45.2 [Enterobacteria phage vB_EcoM_IME339] &gt;gb|AKN44562.1| hypothetical protein PEC04_0075 [Escherichia phage PEC04] &gt;gb|EFW0223292.1| hypothetical protein [Shigella sonnei] &gt;gb|ENJ5622286.1| hypothetical protein [Shigella flexneri] &gt;gb|QBO65466.1| hypothetical protein G25403_00054 [Escherichia phage vB_EcoM_G2540-3] &gt;gb|QDK04184.1| hypothetical protein [Escherichia phage VEc20] &gt;gb|QLF80998.1| hypothetical protein SP1_0221 [Escherichia phage vB_EcoM_SP1] &gt;gb|QOI68237.1| hypothetical protein vec74_050 [Escherichia phage VEc74] &gt;gb|QPP47097.1| hypothetical protein [Shigella phage Sfk20] &gt;gb|QQM15571.1| hypothetical protein BECP11_00006 [Escherichia phage vB_EcoM-BECP11] &gt;gb|QVW54215.1| hypothetical protein KFSEC3_00058 [Escherichia virus KFS-EC3] &gt;gb|QWY90420.1| hypothetical protein Phage132_055 [Escherichia phage 132] &gt;gb|QXN75758.1| hypothetical protein [Escherichia phage BF15] &gt;gb|QXV84906.1| hypothetical protein bas43_0170 [Escherichia phage TadeuszReichstein] &gt;gb|UIU27998.1| hypothetical protein SA20RB_052 [Escherichia phage vB_EcoM_SA20RB] &gt;gb|UKH47470.1| MAG: hypothetical protein [Shigella phage RP1] &gt;gb|URY11625.1| hypothetical protein [Shigella phage ESh16] &gt;gb|URY16036.1| hypothetical protein [Shigella phage ESh36] &gt;gb|UZV41380.1| hypothetical protein EcMI02_0054 [Escherichia phage Ec_MI-02] &gt;gb|WBF79986.1| hypothetical protein F25_0053 [Escherichia phage vB_Eco_F25] &gt;gb|WEU67830.1| prohead protease [Escherichia phage Killian] &gt;gb|WFG41867.1| hypothetical protein [Escherichia phage ADUt] &gt;gb|WRQ07347.1| hypothetical protein [Escherichia phage BP32] &gt;gb|WVH02058.1| hypothetical protein [Escherichia phage ECP2301] &gt;gb|WWE96851.1| hypothetical protein LHLCCAPJ_00177 [Escherichia phage ECp13] &gt;gb|XAO17331.1| hypothetical protein [Escherichia phage FL33] &gt;gb|XAO17592.1| hypothetical protein [Escherichia phage FL34] &gt;gb|XHG84192.1| hypothetical protein YSX_90 [Escherichia phage LYE-01] &gt;gb|XLQ29485.1| hypothetical protein BINOBNEL_00064 [Escherichia phage Ec_YwIITB1] &gt;gb|XMR90086.1| hypothetical protein EPIMAM01_00053 [Escherichia phage EPIMAM01] &gt;gb|XOD31551.1| hypothetical protein DNAMLKGI_00067 [Shigella phage sb1] &gt;gb|XQP09238.1| hypothetical protein GEP001_0062 [Escherichia phage GEP001] &gt;gb|XQQ57043.1| hypothetical protein PBM1_052 [Escherichia phage PBM-1] &gt;gb|XTK84995.1| hypothetical protein [Escherichia phage Ptacy1496] &gt;emb|CAA7537599.1| Hypothetical protein FPMEPEAJ_00087 [Shigella phage vB_SsoM_113] &gt;emb|CAH1615353.1| hypothetical protein UGKSECP2_00066 [Escherichia phage UGKSEcP2] &gt;emb|CAH1615958.1| hypothetical protein UGKSECP1_00144 [Escherichia phage UGKSEcP1]</Hit_def>
+  <Hit_accession>WP_088209775</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1175.23</Hsp_bit-score>
-      <Hsp_score>3039</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>3.01258e-37</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>574</Hsp_identity>
-      <Hsp_positive>575</Hsp_positive>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNIIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSN+IQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLKNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESML+NAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>7</Hit_num>
-  <Hit_id>gb|QBO61158.1|</Hit_id>
-  <Hit_def>putative baseplate hub subunit and tail lysozyme [Escherichia phage D5505]</Hit_def>
-  <Hit_accession>QBO61158</Hit_accession>
-  <Hit_len>576</Hit_len>
+  <Hit_id>ref|YP_010069351.1|</Hit_id>
+  <Hit_def>protein GP45.2 [Escherichia phage vB_EcoM_G8] &gt;gb|QBO60795.1| hypothetical protein G2133_00056 [Escherichia phage vB_EcoM_G2133] &gt;gb|QBQ79939.1| hypothetical protein G8_00054 [Escherichia phage vB_EcoM_G8]</Hit_def>
+  <Hit_accession>YP_010069351</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1175.23</Hsp_bit-score>
-      <Hsp_score>3039</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>3.4751e-37</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>572</Hsp_identity>
-      <Hsp_positive>575</Hsp_positive>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNIIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTILVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDVG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSN+IQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTI+VEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRID+G</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNESWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNE+WTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>8</Hit_num>
-  <Hit_id>gb|EFD7933975.1|</Hit_id>
-  <Hit_def>glycoside hydrolase family protein [Escherichia coli]</Hit_def>
-  <Hit_accession>EFD7933975</Hit_accession>
-  <Hit_len>575</Hit_len>
+  <Hit_id>ref|YP_006986607.1|</Hit_id>
+  <Hit_def>protein GP45.2 [Escherichia phage vB_EcoM_ACG-C40] &gt;ref|YP_009210245.1| protein GP45.2 [Escherichia phage slur02] &gt;ref|YP_009284133.1| protein GP45.2 [Escherichia phage HY03] &gt;ref|YP_009625276.1| protein GP45.2 [Escherichia phage slur04] &gt;ref|YP_010065426.1| protein GP45.2 [Citrobacter phage PhiZZ6] &gt;ref|YP_010072342.1| protein GP45.2 [Escherichia phage vB_EcoM_OE5505] &gt;ref|YP_010072996.1| protein GP45.2 [Escherichia phage vB_vPM_PD112] &gt;ref|YP_010075218.1| protein GP45.2 [Salmonella phage SG1] &gt;gb|EFW2850965.1| hypothetical protein [Shigella sonnei] &gt;gb|EIP2092424.1| hypothetical protein [Shigella flexneri] &gt;gb|EOU4524903.1| protein GP45.2 [Escherichia coli] &gt;gb|QBO64375.1| hypothetical protein G29_00056 [Escherichia phage vB_EcoM_G29] &gt;gb|QBO65745.1| hypothetical protein G4500_00057 [Escherichia phage vB_EcoM_G4500] &gt;gb|QOC55244.1| hypothetical protein JEP6_161 [Escherichia phage JEP6] &gt;gb|QOI70564.1| hypothetical protein PYps5T_163 [Yersinia phage PYps5T] &gt;gb|UAW07356.1| hypothetical protein ELT1_76 [Escherichia phage ELT1] &gt;gb|UAW58489.1| hypothetical protein ASO78A_055 [Escherichia phage vB_EcoM_ASO78A] &gt;gb|URG13336.1| hypothetical protein [Escherichia phage vB_EcoM_CE1] &gt;gb|WPK36931.1| hypothetical protein [Escherichia phage AV121] &gt;gb|WPK37200.1| hypothetical protein [Escherichia phage AV122] &gt;gb|WWT37458.1| hypothetical protein [Escherichia phage UPWr_E4] &gt;gb|WZX06037.1| hypothetical protein HWEIAWKS_CDS0056 [Escherichia phage 232Ecol030PP] &gt;gb|XPO54598.1| hypothetical protein [Escherichia phage vB_EcoM_BMB16] &gt;gb|XQU42763.1| hypothetical protein [Escherichia phage vB_EcoM_P8] &gt;emb|CUL02830.1| hypothetical protein [Escherichia phage slur11] &gt;emb|CUL03616.1| hypothetical protein [Escherichia phage slur13]</Hit_def>
+  <Hit_accession>YP_006986607</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1174.84</Hsp_bit-score>
-      <Hsp_score>3038</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>3.4751e-37</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>574</Hsp_identity>
-      <Hsp_positive>574</Hsp_positive>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATALFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEAT LFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKSEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFK+EYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>9</Hit_num>
-  <Hit_id>gb|EFW8532289.1|</Hit_id>
-  <Hit_def>phage tail protein [Shigella flexneri]</Hit_def>
-  <Hit_accession>EFW8532289</Hit_accession>
-  <Hit_len>575</Hit_len>
+  <Hit_id>ref|WP_016039514.1|</Hit_id>
+  <Hit_def>protein GP45.2 [Escherichia coli] &gt;ref|YP_004414955.1| protein GP45.2 [Shigella phage Shfl2] &gt;ref|YP_009290323.1| protein GP45.2 [Escherichia phage vB_EcoM-UFV13] &gt;ref|YP_009618867.1| protein GP45.2 [Shigella phage Sf21] &gt;ref|YP_009619263.1| protein GP45.2 [Shigella phage Sf24] &gt;ref|YP_010065697.1| protein GP45.2 [Citrobacter phage PhiZZ23] &gt;ref|YP_010066269.1| protein GP45.2 [Enterobacteria phage GiZh] &gt;ref|YP_010066729.1| protein GP45.2 [Enterobacteria phage Kha5h] &gt;ref|YP_010067741.1| protein GP45.2 [Escherichia phage EC121] &gt;ref|YP_010068291.1| protein GP45.2 [Escherichia phage ECO4] &gt;ref|YP_010070433.1| protein GP45.2 [Escherichia phage vB_EcoM_G4507] &gt;ref|YP_010073310.1| protein GP45.2 [Escherichia phage PE37] &gt;ref|YP_010073966.1| protein GP45.2 [Escherichia phage teqdroes] &gt;ref|YP_010077560.1| protein GP45.2 [Yersinia phage vB_YepM_ZN18] &gt;ref|YP_010228904.1| protein GP45.2 [Escherichia phage HP3] &gt;gb|AUV63464.1| hypothetical protein Sf25_gp184 [Shigella phage Sf25] &gt;gb|EDB5153671.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Braenderup] &gt;gb|EFW3083983.1| hypothetical protein [Shigella flexneri] &gt;gb|EFX0167222.1| hypothetical protein [Shigella sonnei] &gt;gb|QBO61065.1| hypothetical protein D5505_00053 [Escherichia phage D5505] &gt;gb|QBO63572.1| hypothetical protein G10400_00057 [Escherichia phage vB_EcoM_G10400] &gt;gb|QBQ79663.1| hypothetical protein R5505_00057 [Escherichia phage vB_EcoM_R5505] &gt;gb|QEG05096.1| hypothetical protein JK23_00057 [Shigella phage JK23] &gt;gb|QHR63906.1| hypothetical protein teqsoen_29 [Escherichia phage teqsoen] &gt;gb|QXV75443.1| hypothetical protein bas44_0167 [Escherichia phage AdolfPortmann] &gt;gb|QXV76019.1| hypothetical protein bas42_0165 [Escherichia phage AndreasVesalius] &gt;gb|QXV76379.1| hypothetical protein bas38_0170 [Escherichia phage AugustSocin] &gt;gb|QXV78879.1| hypothetical protein bas39_0171 [Escherichia phage FriedrichMiescher] &gt;gb|QXV79157.1| hypothetical protein bas41_0168 [Escherichia phage FriedrichZschokke] &gt;gb|QXV83533.1| hypothetical protein bas45_0166 [Escherichia phage PaulHMueller] &gt;gb|UCR75162.1| hypothetical protein FFABAGJI_00226 [Escherichia phage vB_EcoM_C2-3] &gt;gb|URO83810.1| hypothetical protein [Escherichia phage EC128] &gt;gb|URQ01290.1| Phage protein [Escherichia phage HP3.1] &gt;gb|URY11737.1| hypothetical protein [Shigella phage ESh17] &gt;gb|URY12013.1| hypothetical protein [Shigella phage ESh18] &gt;gb|URY13019.1| hypothetical protein [Shigella phage ESh24] &gt;gb|URY13199.1| hypothetical protein [Shigella phage ESh25] &gt;gb|URY14799.1| hypothetical protein [Shigella phage ESh30] &gt;gb|URY15039.1| hypothetical protein [Shigella phage ESh31] &gt;gb|UVM85540.1| MAG: hypothetical protein [Bacteriophage sp.] &gt;gb|WBF04537.1| hypothetical protein [Escherichia phage HP3.2] &gt;gb|WBF83300.1| hypothetical protein a51_171 [Escherichia phage a51] &gt;gb|WBY52685.1| hypothetical protein [Escherichia phage REP1] &gt;gb|WIL78875.1| hypothetical protein NWUPM11B_56 [Escherichia phage vB_EcoM_11B_SA_NWU] &gt;gb|WPJ71500.1| hypothetical protein [Escherichia phage vB-Eco-KMB40] &gt;gb|WQN07310.1| hypothetical protein [Escherichia phage vB-Eco-KMB23] &gt;gb|XLL18393.1| hypothetical protein EPIMRB01_00053 [Escherichia phage EPIMRB01] &gt;gb|XLZ16556.1| hypothetical protein QILSQKBC_CDS0192 [Escherichia phage vB_Eco_T-01] &gt;gb|XNS38427.1| hypothetical protein TTPRCKGA_CDS0058 [Escherichia phage Pinarejo] &gt;gb|XNS40818.1| hypothetical protein BKCWDVPH_CDS0059 [Escherichia phage Elenatom] &gt;gb|XXS07568.1| hypothetical protein O157_00111 [Escherichia phage Ec_O157kw] &gt;gb|XZY10547.1| hypothetical protein KEFKVZYF_CDS0168 [Escherichia phage Lubas] &gt;gb|YAF79586.1| hypothetical protein 38CBDS06_CDS0167 [Escherichia phage CBDS-06] &gt;gb|YAF79871.1| hypothetical protein 41CBDS07_CDS0168 [Escherichia phage CBDS-07] &gt;gb|YAF81262.1| hypothetical protein 368SAEN100P08_CDS0175 [Salmonella phage SAEN100P08] &gt;gb|YCB85341.1| hypothetical protein [Citrobacter phage ColRes] &gt;gb|YCJ26321.1| hypothetical protein PHL73_00055 [Escherichia phage L73] &gt;gb|YCJ26586.1| hypothetical protein PPG3_00054 [Escherichia phage PG3] &gt;emb|CAK6624527.1| hypothetical protein AUBRB02_MBMBFPCN_00267 [Escherichia phage AUBRB02] &gt;emb|CAL1327768.1| Phage protein [Escherichia phage vB_Eco_CP] &gt;emb|CAL1641162.1| Phage protein [Escherichia phage vB_Eco_TB37] &gt;emb|VUF54883.1| Phage protein [Escherichia phage T4_ev151]</Hit_def>
+  <Hit_accession>WP_016039514</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1174.84</Hsp_bit-score>
-      <Hsp_score>3038</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>4.9937e-37</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>573</Hsp_identity>
-      <Hsp_positive>575</Hsp_positive>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTIEGNGTILVKGNVTIVVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKT+EGNGTILVKGNVTI+VEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTFPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLT PEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>10</Hit_num>
-  <Hit_id>ref|YP_009102354.1|</Hit_id>
-  <Hit_def>baseplate hub subunit and tail lysozyme [Enterobacteria phage RB27] &gt;ref|YP_010068639.1| baseplate hub subunit and tail lysozyme [Escherichia phage vB_EcoM_F1] &gt;ref|YP_010072440.1| baseplate hub subunit and tail lysozyme [Escherichia phage vB_EcoM_OE5505] &gt;ref|YP_010074354.1| baseplate hub subunit and tail lysozyme [Escherichia phage teqhad] &gt;ref|YP_010074874.1| baseplate hub subunit and tail lysozyme [Escherichia phage YUEEL01] &gt;ref|YP_010091456.1| baseplate hub subunit and tail lysozyme [Yersinia phage fPS-65] &gt;ref|YP_010228810.1| baseplate hub subunit and tail lysozyme [Escherichia phage HP3] &gt;ref|YP_803092.1| baseplate hub subunit and tail lysozyme [Escherichia phage RB32] &gt;gb|AIT74789.1| base plate hub subunit and lysozyme [Enterobacteria phage RB33] &gt;gb|EFI0350069.1| glycoside hydrolase family protein [Escherichia coli] &gt;gb|EFW0222312.1| glycoside hydrolase family protein [Shigella sonnei] &gt;gb|EJV2547940.1| glycoside hydrolase family protein [Shigella flexneri] &gt;gb|QBQ79762.1| putative baseplate hub subunit and tail lysozyme [Escherichia phage vB_EcoM_R5505] &gt;gb|QDK04277.1| baseplate hub subunit and lysozyme [Escherichia phage VEc20] &gt;gb|QHR63799.1| putative baseplate hub subunit and tail lysozyme [Escherichia phage teqhal] &gt;gb|QOI70655.1| baseplate hub structural protein / lysozyme R [Yersinia phage PYps5T] &gt;gb|QXV82240.1| baseplate hub and tail lysozyme [Escherichia phage KarlGJung] &gt;gb|QYW00513.1| baseplate hub + tail lysozyme [Escherichia phage vB_EcoM_FN] &gt;gb|QZI78931.1| baseplate hub structural protein /lysozyme R [Escherichia phage vB_EcoM-101112UKE3-1] &gt;gb|UAV89112.1| putative baseplate hub subunit and tail lysozyme [Escherichia phage U115] &gt;gb|UAW58581.1| baseplate hub subunit and tail lysozyme [Escherichia phage vB_EcoM_ASO78A] &gt;gb|UIS74420.1| baseplate hub structural protein / lysozyme R [Escherichia phage EC101] &gt;gb|UPW40011.1| baseplate hub subunit and lysozyme [Escherichia phage vB_EcoM_ESCO58] &gt;gb|URP85383.1| baseplate hub + tail lysozyme [Escherichia phage ES19] &gt;gb|URQ01378.1| Phage baseplate hub structural protein [Escherichia phage HP3.1] &gt;gb|UVX60516.1| MAG: OB domain protein [Bacteriophage sp.] &gt;gb|WBF04623.1| baseplate hub structural protein [Escherichia phage HP3.2] &gt;gb|WBF83401.1| baseplate hub subunit and tail lysozyme [Escherichia phage a51] &gt;gb|WEW53910.1| putative baseplate hub subunit and tail lysozyme [Escherichia phage 107] &gt;gb|WJJ57556.1| baseplate hub structural protein / lysozyme R [Escherichia phage 4E10] &gt;gb|XVB94778.1| hypothetical protein JJMBNKBA_00132 [Pseudomonas phage vB_PSGBLB0006] &gt;gb|XVC02036.1| baseplate hub subunit and tail lysozyme [Escherichia phage TOPO13]</Hit_def>
-  <Hit_accession>YP_009102354</Hit_accession>
-  <Hit_len>575</Hit_len>
+  <Hit_id>ref|WP_015983600.1|</Hit_id>
+  <Hit_def>protein GP45.2 [Salmonella enterica] &gt;ref|YP_010069076.1| protein GP45.2 [Escherichia phage vB_EcoM-fFiEco06] &gt;ref|YP_010075597.1| protein GP45.2 [Serratia phage PhiZZ30] &gt;ref|YP_802995.1| hypothetical protein RB32ORF053c [Escherichia phage RB32] &gt;gb|AIT74692.1| hypothetical protein RB33_054 [Enterobacteria phage RB33] &gt;gb|AUV61189.1| hypothetical protein HE2_052 [Escherichia phage vB_EcoM-fHoEco02] &gt;gb|EOZ9352127.1| protein GP45.2 [Escherichia coli] &gt;gb|QWT76981.1| hypothetical protein [Escherichia phage vB_EcoM-UFV09] &gt;gb|QXV83196.1| hypothetical protein bas36_0165 [Escherichia phage Paracelsus] &gt;gb|UYE93021.1| hypothetical protein [Escherichia phage vB_EcoM-UFV05] &gt;gb|UYL83914.1| hypothetical protein [Escherichia phage vB_EcoM-UFV06] &gt;gb|UYL84200.1| hypothetical protein [Escherichia phage vB_EcoM-UFV10] &gt;gb|UYL84486.1| hypothetical protein [Escherichia phage vB_EcoM-UFV11] &gt;gb|XAO16314.1| hypothetical protein [Escherichia phage FL08] &gt;emb|CAD7712149.1| gp45.2 conserved hypothetical protein [Escherichia phage vB_Eco_NR1] &gt;emb|CAO0807575.1| Phage protein [Escherichia phage UTI-E4]</Hit_def>
+  <Hit_accession>WP_015983600</Hit_accession>
+  <Hit_len>63</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1174.84</Hsp_bit-score>
-      <Hsp_score>3038</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>7.05261e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>573</Hsp_identity>
-      <Hsp_positive>575</Hsp_positive>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNIIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIVVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSN+IQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTI+VEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>EYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>EYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>EYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>11</Hit_num>
-  <Hit_id>ref|YP_004415044.1|</Hit_id>
-  <Hit_def>baseplate hub subunit and tail lysozyme [Shigella phage Shfl2] &gt;gb|AEA73105.1| putative baseplate hub subunit and tail lysozyme [Shigella phage Shfl2] &gt;gb|EIU5839722.1| glycoside hydrolase family protein [Escherichia coli] &gt;gb|UTN90462.1| baseplate hub structural protein / lysozyme R [Escherichia phage vB_Eco-B1.1]</Hit_def>
-  <Hit_accession>YP_004415044</Hit_accession>
-  <Hit_len>575</Hit_len>
+  <Hit_id>gb|URQ05247.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia phage vB_EcoM_SCS4]</Hit_def>
+  <Hit_accession>URQ05247</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1174.84</Hsp_bit-score>
-      <Hsp_score>3038</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>8.74505e-37</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>573</Hsp_identity>
-      <Hsp_positive>575</Hsp_positive>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGIEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIVVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYG+EVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTI+VEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKXEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFK EYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>12</Hit_num>
-  <Hit_id>gb|EEY7270139.1|</Hit_id>
-  <Hit_def>glycoside hydrolase family protein [Escherichia coli]</Hit_def>
-  <Hit_accession>EEY7270139</Hit_accession>
-  <Hit_len>575</Hit_len>
+  <Hit_id>ref|YP_007004438.1|</Hit_id>
+  <Hit_def>protein GP45.2 [Escherichia phage ime09] &gt;ref|YP_010065114.1| protein GP45.2 [Citrobacter phage vB_CroM_CrRp10] &gt;ref|YP_010067964.1| protein GP45.2 [Escherichia phage EcNP1] &gt;ref|YP_010073423.1| protein GP45.2 [Escherichia phage PP01] &gt;ref|YP_010075323.1| protein GP45.2 [Salmonella phage pSe_SNUABM_01] &gt;ref|YP_010278178.1| hypothetical protein KNT57_gp011 [Shigella phage KNP5] &gt;gb|EEX9354427.1| hypothetical protein [Escherichia coli] &gt;gb|ENA4766562.1| hypothetical protein [Shigella flexneri] &gt;gb|ENC4530665.1| hypothetical protein [Shigella sonnei] &gt;gb|QNI20142.1| hypothetical protein [Enterobacteria phage phiC600P9] &gt;gb|QVW08862.1| hypothetical protein [Salmonella phage Lv5cm] &gt;gb|QXN69325.1| putative recombination endonuclease [Hafnia phage vB_HpaM_IsaacDaniel] &gt;gb|QXV73504.1| rIIB protector from prophage-induced early lysis [Escherichia phage vB_EcoM_Nami] &gt;gb|UDY80448.1| hypothetical protein [Shigella phage CT01] &gt;gb|UGO55403.1| putative recombination endonuclease subunit [Escherichia phage JLBYU24] &gt;gb|UIU27731.1| hypothetical protein SA21RB_056 [Escherichia phage vB_EcoM_SA21RB] &gt;gb|UIU46804.1| hypothetical protein [Escherichia phage EP01] &gt;gb|URY13610.1| hypothetical protein [Shigella phage ESh26] &gt;gb|URY15422.1| hypothetical protein [Shigella phage ESh33] &gt;gb|USW07406.1| hypothetical protein [Salmonella phage GRNsp7] &gt;gb|UVD33515.1| prohead protease [Escherichia phage ZCEC14] &gt;gb|WAX13012.1| hypothetical protein ECO07P1_00268 [Escherichia phage ECO07P1] &gt;gb|WAX13243.1| hypothetical protein ECO07P2_00237 [Escherichia phage ECO07P2] &gt;gb|WAX13342.1| hypothetical protein ECO07P3_00065 [Escherichia phage ECO07P3] &gt;gb|WAX13590.1| hypothetical protein ECO07P4_00052 [Escherichia phage ECO07P4] &gt;gb|WAX13865.1| hypothetical protein ECO07P5_00063 [Escherichia phage ECO07P5] &gt;gb|WBF80253.1| hypothetical protein F26_0053 [Escherichia phage vB_Eco_F26] &gt;gb|WBY53182.1| hypothetical protein [Escherichia phage REP4] &gt;gb|WCS66841.1| hypothetical protein KIT06_00097 [Escherichia phage KIT06] &gt;gb|WFG77678.1| hypothetical protein VIPECOOM01_00053 [Escherichia phage vB_VIPECOOM01] &gt;gb|WFG77947.1| hypothetical protein VIPECOOM02_00053 [Escherichia phage vB_VIPECOOM02] &gt;gb|WFG78216.1| hypothetical protein VIPECOOM03_00053 [Escherichia phage vB_VIPECOOM03] &gt;gb|WIL00066.1| hypothetical protein [Escherichia phage GADU22] &gt;gb|WJJ57090.1| hypothetical protein [Escherichia phage LH2] &gt;gb|WMM91754.1| hypothetical protein [Escherichia phage KK4] &gt;gb|WPJ70706.1| hypothetical protein [Escherichia phage vB-Eco-KMB22] &gt;gb|WPK17708.1| hypothetical protein [Escherichia phage BYEP01] &gt;gb|WPK18137.1| hypothetical protein [Escherichia phage BYEP02] &gt;gb|WVX92752.1| hypothetical protein N4000184 [Escherichia phage vB_EcoM_HZ_ZJUN4] &gt;gb|WWT49625.1| hypothetical protein HLVZBICP_CDS0052 [Escherichia phage 236Ecol005PP] &gt;gb|WYD66524.1| hypothetical protein BD_222 [Enterobacteria phage P922] &gt;gb|XDJ03548.1| hypothetical protein Manna_059 [Salmonella phage Manna] &gt;gb|XKC22870.1| hypothetical protein EC_218 [Escherichia phage OES_C-1] &gt;gb|XNS39674.1| hypothetical protein HMSQEQTA_CDS0057 [Escherichia phage PinkRuby] &gt;gb|XNS39957.1| hypothetical protein YNOUMQBO_CDS0057 [Escherichia phage SholemSchwarzbard] &gt;gb|XOD32087.1| hypothetical protein FNPIJPCJ_00064 [Shigella phage sb3] &gt;gb|XOF09985.1| hypothetical protein [Shigella phage SH-2] &gt;gb|XPN41114.1| hypothetical protein [Shigella phage SP21535] &gt;gb|XPO97833.1| hypothetical protein [Shigella phage SF2-1] &gt;gb|XRL27911.1| putative recombination endonuclease subunit [Escherichia phage HMD-9] &gt;gb|XUY60992.1| hypothetical protein PTEEco15_117 [Escherichia phage vB_EcoM_PTE-Eco15] &gt;gb|YBX85989.1| hypothetical protein RPN31R_CDS0202 [Salmonella phage vB_SWe-RPN31R] &gt;gb|YCB26161.1| hypothetical protein pSTPMR01LL37_244 [Salmonella phage pST_PMR_01::LL37] &gt;gb|YCB26439.1| hypothetical protein pSTPMR01_244 [Salmonella phage pST_PMR_01] &gt;gb|YCN14397.1| recombination endonuclease subunit [Escherichia phage SF-E5] &gt;dbj|BBI58177.1| hypothetical protein [Shigella phage SfPhi01]</Hit_def>
+  <Hit_accession>YP_007004438</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1174.84</Hsp_bit-score>
-      <Hsp_score>3038</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>9.97742e-37</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>573</Hsp_identity>
-      <Hsp_positive>575</Hsp_positive>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTIDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIVVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKT+DNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTI+VEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLKNAFKSEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESML+NAFK+EYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>13</Hit_num>
-  <Hit_id>gb|QDF15174.1|</Hit_id>
-  <Hit_def>baseplate hub subunit and tail lysozyme [Escherichia phage vB_EcoM-Sa45lw] &gt;gb|QQM15747.1| baseplate central spike complex protein [Escherichia phage vB_EcoM-BECP11]</Hit_def>
-  <Hit_accession>QDF15174</Hit_accession>
-  <Hit_len>575</Hit_len>
+  <Hit_id>gb|XOD32346.1|</Hit_id>
+  <Hit_def>hypothetical protein FJMBFBFG_00067 [Shigella phage sb4]</Hit_def>
+  <Hit_accession>XOD32346</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1174.46</Hsp_bit-score>
-      <Hsp_score>3037</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.43375e-36</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>573</Hsp_identity>
-      <Hsp_positive>574</Hsp_positive>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEAVTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIVVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEA TLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTI+VEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLKNAFKAEYTKIMSSRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESML+NAFKAEYTKIMS+RNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>14</Hit_num>
-  <Hit_id>ref|YP_010066807.1|</Hit_id>
-  <Hit_def>baseplate hub subunit and tail lysozyme [Enterobacteria phage Kha5h] &gt;gb|ANZ51775.1| baseplate hub subunit and tail lysozyme [Enterobacteria phage Kha5h] &gt;gb|EDB5153584.1| glycoside hydrolase family protein [Salmonella enterica subsp. enterica serovar Braenderup] &gt;gb|EFX0167505.1| phage tail protein [Shigella sonnei] &gt;tpg|HGF1846450.1| glycoside hydrolase family protein [Escherichia coli]</Hit_def>
-  <Hit_accession>YP_010066807</Hit_accession>
-  <Hit_len>575</Hit_len>
+  <Hit_id>gb|UGC97498.1|</Hit_id>
+  <Hit_def>hypothetical protein vBEcoMOMNI12_0055 [Escherichia phage vB_Eco_OMNI12]</Hit_def>
+  <Hit_accession>UGC97498</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1174.46</Hsp_bit-score>
-      <Hsp_score>3037</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.4656e-36</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>573</Hsp_identity>
-      <Hsp_positive>574</Hsp_positive>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATALFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIVVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEAT LFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTI+VEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTVPEIKRYILRNNFSNEEHIVTESMLKNAFKSEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLT+PEIKRYILRNNFSNEEHIVTESML+NAFK+EYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>15</Hit_num>
-  <Hit_id>ref|YP_010076764.1|</Hit_id>
-  <Hit_def>baseplate hub subunit and tail lysozyme [Shigella phage SH7] &gt;gb|APC45067.1| baseplate hub subunit and lysozyme [Shigella phage SH7]</Hit_def>
-  <Hit_accession>YP_010076764</Hit_accession>
-  <Hit_len>575</Hit_len>
+  <Hit_id>ref|YP_009614978.1|</Hit_id>
+  <Hit_def>protein GP45.2 [Shigella phage Sf22] &gt;gb|EFW3029371.1| hypothetical protein [Shigella flexneri] &gt;gb|EOS3369596.1| protein GP45.2 [Escherichia coli] &gt;gb|QXN69591.1| hypothetical protein KELASSE_51 [Escherichia phage vB_EcoM_Kelasse] &gt;gb|UGO56745.1| putative recombination endonuclease subunit [Escherichia phage JLBYU22] &gt;gb|UIO58099.1| hypothetical protein S1P5_00183 [Escherichia phage vB_EcoM-S1P5QW] &gt;gb|WPJ71769.1| hypothetical protein [Escherichia phage vB-Eco-KMB42]</Hit_def>
+  <Hit_accession>YP_009614978</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1174.46</Hsp_bit-score>
-      <Hsp_score>3037</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.49816e-36</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>573</Hsp_identity>
-      <Hsp_positive>574</Hsp_positive>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNIIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATALFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSN+IQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEAT LFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTEYMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTE MLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>16</Hit_num>
-  <Hit_id>pdb|1WTH|A</Hit_id>
-  <Hit_def>Chain A, Tail-associated lysozyme [Tequatrovirus T4]</Hit_def>
-  <Hit_accession>1WTH_A</Hit_accession>
-  <Hit_len>584</Hit_len>
+  <Hit_id>gb|UGO46729.1|</Hit_id>
+  <Hit_def>putative recombination endonuclease subunit [Shigella phage vB_SboM_Phaginator]</Hit_def>
+  <Hit_accession>UGO46729</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1174.07</Hsp_bit-score>
-      <Hsp_score>3036</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.63579e-36</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>574</Hsp_identity>
-      <Hsp_positive>574</Hsp_positive>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLLAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSL AMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTFPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNESWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLT PEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNE+WTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>17</Hit_num>
-  <Hit_id>gb|EPU8476559.1|</Hit_id>
-  <Hit_def>glycoside hydrolase family protein [Escherichia coli]</Hit_def>
-  <Hit_accession>EPU8476559</Hit_accession>
-  <Hit_len>575</Hit_len>
+  <Hit_id>gb|WZX06302.1|</Hit_id>
+  <Hit_def>hypothetical protein AYADHXPP_CDS0054 [Escherichia phage 235Ecol030PP]</Hit_def>
+  <Hit_accession>WZX06302</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1174.07</Hsp_bit-score>
-      <Hsp_score>3036</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.63579e-36</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>573</Hsp_identity>
-      <Hsp_positive>574</Hsp_positive>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNIIFVRGDETKTVEGNGTILVKGNVTIVVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSN IFVRGDETKTVEGNGTILVKGNVTI+VEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTFPEIKRYILRNNFSNEEHIVTESMLRNAFKSEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLT PEIKRYILRNNFSNEEHIVTESMLRNAFK+EYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>18</Hit_num>
-  <Hit_id>ref|YP_010067567.1|</Hit_id>
-  <Hit_def>baseplate hub subunit and tail lysozyme [Escherichia phage vB_EcoM_DalCa] &gt;gb|AYP69733.1| baseplate hub subunit and lysozyme [Escherichia phage vB_EcoM_DalCa]</Hit_def>
-  <Hit_accession>YP_010067567</Hit_accession>
-  <Hit_len>575</Hit_len>
+  <Hit_id>gb|WPJ71232.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia phage vB-Eco-KMB39] &gt;gb|WRN92476.1| hypothetical protein SHGT_096 [Shigella phage vb_GEC_SH_GT] &gt;gb|XGU05897.1| hypothetical protein FFTMQEZB_CDS0212 [Escherichia phage Pu-Krd-SF3] &gt;gb|XOF09064.1| hypothetical protein [Escherichia phage OES_C-2] &gt;gb|XPN51738.1| hypothetical protein ZKGXIZES_CDS0211 [Escherichia phage Pu-Krd-SF4] &gt;gb|XVB94688.1| hypothetical protein JJMBNKBA_00033 [Pseudomonas phage vB_PSGBLB0006] &gt;tpg|HBN6048822.1| hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WPJ71232</Hit_accession>
+  <Hit_len>63</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1174.07</Hsp_bit-score>
-      <Hsp_score>3036</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.91661e-36</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>572</Hsp_identity>
-      <Hsp_positive>575</Hsp_positive>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNIIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIIKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIVVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSN+IQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLI+KQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTI+VEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>EYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>EYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLKNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>EYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESML+NAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>19</Hit_num>
-  <Hit_id>gb|URY14694.1|</Hit_id>
-  <Hit_def>baseplate hub structural protein / lysozyme R [Shigella phage ESh30]</Hit_def>
-  <Hit_accession>URY14694</Hit_accession>
-  <Hit_len>576</Hit_len>
+  <Hit_id>emb|CAJ1093091.1|</Hit_id>
+  <Hit_def>Phage protein [Escherichia phage vB_Eco_QOTSP]</Hit_def>
+  <Hit_accession>CAJ1093091</Hit_accession>
+  <Hit_len>63</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1174.07</Hsp_bit-score>
-      <Hsp_score>3036</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>2.5224e-36</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>571</Hsp_identity>
-      <Hsp_positive>575</Hsp_positive>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNIIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPSRSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIVVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDVG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSN+IQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTP+RSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTI+VEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRID+G</Hsp_midline>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>EYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>EYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKSEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>EYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFK+EYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
   <Hit_num>20</Hit_num>
-  <Hit_id>ref|YP_007004892.1|</Hit_id>
-  <Hit_def>baseplate hub subunit and tail lysozyme [Escherichia phage wV7] &gt;gb|AEM00812.1| baseplate hub subunit and lysozyme [Escherichia phage wV7] &gt;gb|AKE46163.1| hypothetical protein ECTP7_01307 [Escherichia coli O157 typing phage 7]</Hit_def>
-  <Hit_accession>YP_007004892</Hit_accession>
-  <Hit_len>575</Hit_len>
+  <Hit_id>gb|ELP3606778.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>ELP3606778</Hit_accession>
+  <Hit_len>62</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>1173.69</Hsp_bit-score>
-      <Hsp_score>3035</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>2.53852e-36</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>575</Hsp_query-to>
+      <Hsp_query-to>62</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_hit-to>62</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>572</Hsp_identity>
-      <Hsp_positive>574</Hsp_positive>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>575</Hsp_align-len>
-      <Hsp_qseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATTLFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGVEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIIVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_qseq>
-      <Hsp_hseq>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEATALFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYGIEVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTIVVEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_hseq>
-      <Hsp_midline>MEMISNNLNWFVGVVEDRMDPLKLGRVRVRVVGLHPPQRAQGDVMGIPTEKLPWMSVIQPITSAAMSGIGGSVTGPVEGTRVYGHFLDKWKTNGIVLGTYGGIVREKPNRLEGFSDPTGQYPRRLGNDTNVLNQGGEVGYDSSSNVIQDSNLDTAINPDDRPLSEIPTDDNPNMSMAEMLRRDEGLRLKVYWDTEGYPTIGIGHLIMKQPVRDMAQINKVLSKQVGREITGNPGSITMEEAT LFERDLADMQRDIKSHSKVGPVWQAVNRSRQMALENMAFQMGVGGVAKFNTMLTAMLAGDWEKAYKAGRDSLWYQQTKGRASRVTMIILTGNLESYG+EVKTPARSLSAMAATVAKSSDPADPPIPNDSRILFKEPVSSYKGEYPYVHTMETESGHIQEFDDTPGQERYRLVHPTGTYEEVSPSGRRTRKTVDNLYDITNADGNFLVAGDKKTNVGGSEIYYNMDNRLHQIDGSNTIFVRGDETKTVEGNGTILVKGNVTI+VEGNADITVKGDATTLVEGNQTNTVNGNLSWKVAGTVDWDVGGDWTEKMASMSSISSGQYTIDGSRIDIG</Hsp_midline>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MEYSTGQHLLTIPEIKRYILRNNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_qseq>
+      <Hsp_hseq>MEYSTGQHLLTIPEIKRYILINNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_hseq>
+      <Hsp_midline>MEYSTGQHLLTIPEIKRYIL NNFSNEEHIVTESMLRNAFKAEYTKIMSNRNEAWTVTDYYD</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>

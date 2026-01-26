@@ -136,3 +136,45 @@ def extrair_cds_proteina(genbank_file, gene_info, output_dir):
 
     print("CDS correspondente não encontrada.")
     return None
+
+def obter_proteina_por_geneid(gene_id, output_dir):
+    try:
+        handle = Entrez.elink(
+            dbfrom="gene",
+            db="protein",
+            id=gene_id
+        )
+        links = Entrez.read(handle)
+        handle.close()
+
+        linksets = links[0].get("LinkSetDb", [])
+        if not linksets:
+            print("Nenhuma proteína associada ao GeneID.")
+            return None
+
+        protein_ids = linksets[0]["Link"]
+        protein_id = protein_ids[0]["Id"]
+
+        print(f"Proteína associada encontrada: {protein_id}")
+
+        # Fetch da proteína
+        handle = Entrez.efetch(
+            db="protein",
+            id=protein_id,
+            rettype="fasta",
+            retmode="text"
+        )
+        fasta = handle.read()
+        handle.close()
+
+        os.makedirs(output_dir, exist_ok=True)
+        out = os.path.join(output_dir, "protein_sequence.faa")
+
+        with open(out, "w") as f:
+            f.write(fasta)
+
+        return out
+
+    except Exception as e:
+        print(f"Erro ao obter proteína: {e}")
+        return None
