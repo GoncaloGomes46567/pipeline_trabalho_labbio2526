@@ -26,19 +26,24 @@ def main():
     if not os.path.exists(args.output):
         os.makedirs(args.output, exist_ok=True)
 
-    ncbi.setup_entrez(args.email)
+    gene_info = ncbi.obter_info_gene_ncbi(args.gene_id)
+    if not gene_info:
+        sys.exit("Erro ao obter informações do gene.")
 
     gb_file = ncbi.buscar_gene_db(gene_info, args.output)
     if not gb_file:
-        sys.exit("erro no download.")
-    faa_file = ncbi.extrair_cds_proteina(gb_file, args.output, args.gene_id)
+        sys.exit("Erro no download do GenBank.")
+
+    faa_file = ncbi.extrair_cds_proteina(gb_file, gene_info, args.output)
     if not faa_file:
-        sys.exit("Erro na extração")
+        sys.exit("Erro na extração da proteína.")
+
 
     analisa.analisar_propriedades(faa_file)
 
-    print("\n--- A iniciar o BLAST remoto... Isto pode demorar alguns minutos. ---")
+    print("\n--- A iniciar o BLAST remoto (isto pode demorar) ---")
     xml_file = blast_phylo.aplica_blast(faa_file, args.output)
+
     
     if xml_file:
         hits_file = blast_phylo.processar_blast_e_salvar_hits(xml_file, args.output)
