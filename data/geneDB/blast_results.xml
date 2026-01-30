@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3556567</BlastOutput_query-ID>
+  <BlastOutput_query-def>NP_049787.1 major head protein [Escherichia phage T4]</BlastOutput_query-def>
+  <BlastOutput_query-len>521</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3556567</Iteration_query-ID>
+  <Iteration_query-def>NP_049787.1 major head protein [Escherichia phage T4]</Iteration_query-def>
+  <Iteration_query-len>521</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_049787.1|</Hit_id>
+  <Hit_def>major head protein [Escherichia phage T4] &gt;sp|P04535.2| RecName: Full=Major capsid protein; AltName: Full=Gene product 23; AltName: Full=Major head protein; AltName: Full=gp23; Contains: RecName: Full=Mature major capsid protein; AltName: Full=gp23* [Tequatrovirus T4] &gt;pdb|6UZC|A Chain A, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|B Chain B, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|C Chain C, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|D Chain D, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|a Chain a, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|b Chain b, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|c Chain c, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|d Chain d, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|e Chain e, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|f Chain f, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|g Chain g, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|h Chain h, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|i Chain i, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|j Chain j, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|k Chain k, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|l Chain l, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|m Chain m, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|n Chain n, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|o Chain o, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|p Chain p, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|q Chain q, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|r Chain r, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|s Chain s, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|t Chain t, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|u Chain u, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|v Chain v, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|w Chain w, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|x Chain x, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|y Chain y, Major capsid protein [Tequatrovirus T4] &gt;pdb|6UZC|z Chain z, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|aa Chain aa, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ab Chain ab, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ac Chain ac, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ad Chain ad, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ae Chain ae, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|af Chain af, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ag Chain ag, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ah Chain ah, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ai Chain ai, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|aj Chain aj, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ak Chain ak, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|al Chain al, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|am Chain am, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|an Chain an, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ao Chain ao, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ap Chain ap, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|aq Chain aq, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ar Chain ar, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|as Chain as, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|at Chain at, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|au Chain au, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|av Chain av, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|aw Chain aw, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ax Chain ax, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ay Chain ay, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|az Chain az, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ba Chain ba, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bb Chain bb, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bc Chain bc, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bd Chain bd, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|be Chain be, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bf Chain bf, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bg Chain bg, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bh Chain bh, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bi Chain bi, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bj Chain bj, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bk Chain bk, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bl Chain bl, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bm Chain bm, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bn Chain bn, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bo Chain bo, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bp Chain bp, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bq Chain bq, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|br Chain br, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bs Chain bs, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bt Chain bt, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bu Chain bu, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bv Chain bv, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bw Chain bw, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bx Chain bx, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|by Chain by, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|bz Chain bz, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ca Chain ca, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cb Chain cb, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cc Chain cc, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cd Chain cd, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ce Chain ce, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cf Chain cf, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cg Chain cg, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ch Chain ch, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ci Chain ci, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cj Chain cj, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ck Chain ck, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cl Chain cl, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cm Chain cm, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cn Chain cn, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|co Chain co, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cp Chain cp, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cq Chain cq, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cr Chain cr, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cs Chain cs, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ct Chain ct, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cu Chain cu, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cv Chain cv, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cw Chain cw, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cx Chain cx, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cy Chain cy, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|cz Chain cz, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|da Chain da, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|db Chain db, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|dc Chain dc, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|dd Chain dd, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|de Chain de, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|df Chain df, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|dg Chain dg, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|dh Chain dh, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|di Chain di, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|dj Chain dj, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|dk Chain dk, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|dl Chain dl, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|dm Chain dm, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|dn Chain dn, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|do Chain do, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|dp Chain dp, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|dq Chain dq, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|dr Chain dr, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|dy Chain dy, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|dz Chain dz, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ea Chain ea, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|eb Chain eb, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ec Chain ec, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ed Chain ed, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ee Chain ee, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ef Chain ef, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|eg Chain eg, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|eh Chain eh, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ei Chain ei, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ej Chain ej, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ek Chain ek, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|el Chain el, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|em Chain em, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|en Chain en, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|eo Chain eo, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ep Chain ep, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|eq Chain eq, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|er Chain er, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|es Chain es, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|et Chain et, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|eu Chain eu, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ev Chain ev, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ew Chain ew, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ex Chain ex, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ey Chain ey, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ez Chain ez, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fa Chain fa, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fb Chain fb, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fc Chain fc, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fd Chain fd, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fe Chain fe, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ff Chain ff, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fg Chain fg, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fh Chain fh, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fi Chain fi, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fj Chain fj, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fk Chain fk, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fl Chain fl, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fm Chain fm, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fn Chain fn, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fo Chain fo, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fp Chain fp, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fq Chain fq, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fr Chain fr, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fs Chain fs, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ft Chain ft, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fu Chain fu, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fv Chain fv, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fw Chain fw, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fx Chain fx, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fy Chain fy, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|fz Chain fz, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ga Chain ga, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gb Chain gb, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gc Chain gc, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gd Chain gd, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ge Chain ge, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gf Chain gf, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gg Chain gg, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gh Chain gh, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gi Chain gi, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gj Chain gj, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gk Chain gk, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gl Chain gl, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gm Chain gm, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gn Chain gn, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|go Chain go, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gp Chain gp, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gq Chain gq, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gr Chain gr, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gs Chain gs, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gt Chain gt, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gu Chain gu, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gv Chain gv, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gw Chain gw, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gx Chain gx, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gy Chain gy, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|gz Chain gz, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|ha Chain ha, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|hb Chain hb, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|hc Chain hc, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VRT|hd Chain hd, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|aa Chain aa, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ab Chain ab, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ac Chain ac, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ad Chain ad, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ae Chain ae, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|af Chain af, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ag Chain ag, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ah Chain ah, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ai Chain ai, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|aj Chain aj, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ak Chain ak, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|al Chain al, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|am Chain am, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|an Chain an, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ao Chain ao, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ap Chain ap, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|aq Chain aq, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ar Chain ar, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|as Chain as, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|at Chain at, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|au Chain au, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|av Chain av, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|aw Chain aw, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ax Chain ax, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ay Chain ay, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|az Chain az, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ba Chain ba, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bb Chain bb, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bc Chain bc, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bd Chain bd, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|be Chain be, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bf Chain bf, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bg Chain bg, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bh Chain bh, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bi Chain bi, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bj Chain bj, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bk Chain bk, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bl Chain bl, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bm Chain bm, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bn Chain bn, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bo Chain bo, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bp Chain bp, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bq Chain bq, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|br Chain br, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bs Chain bs, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bt Chain bt, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bu Chain bu, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bv Chain bv, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bw Chain bw, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bx Chain bx, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|by Chain by, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|bz Chain bz, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ca Chain ca, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cb Chain cb, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cc Chain cc, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cd Chain cd, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ce Chain ce, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cf Chain cf, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cg Chain cg, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ch Chain ch, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ci Chain ci, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cj Chain cj, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ck Chain ck, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cl Chain cl, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cm Chain cm, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cn Chain cn, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|co Chain co, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cp Chain cp, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cq Chain cq, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cr Chain cr, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cs Chain cs, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ct Chain ct, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cu Chain cu, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cv Chain cv, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cw Chain cw, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cx Chain cx, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cy Chain cy, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|cz Chain cz, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|da Chain da, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|db Chain db, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dc Chain dc, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dd Chain dd, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|de Chain de, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|df Chain df, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dg Chain dg, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dh Chain dh, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|di Chain di, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dj Chain dj, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dk Chain dk, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dl Chain dl, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dm Chain dm, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dn Chain dn, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|do Chain do, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dp Chain dp, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dq Chain dq, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dr Chain dr, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ds Chain ds, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dt Chain dt, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|du Chain du, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dv Chain dv, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dw Chain dw, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dx Chain dx, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dy Chain dy, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|dz Chain dz, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ea Chain ea, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|eb Chain eb, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ec Chain ec, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ed Chain ed, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ee Chain ee, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ef Chain ef, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|eg Chain eg, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|eh Chain eh, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ei Chain ei, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ej Chain ej, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ek Chain ek, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|el Chain el, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|em Chain em, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|en Chain en, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|eo Chain eo, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ep Chain ep, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|eq Chain eq, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|er Chain er, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|es Chain es, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|et Chain et, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|eu Chain eu, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ev Chain ev, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ew Chain ew, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ex Chain ex, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ey Chain ey, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ez Chain ez, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fa Chain fa, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fb Chain fb, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fc Chain fc, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fd Chain fd, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fe Chain fe, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ff Chain ff, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fg Chain fg, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fh Chain fh, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fi Chain fi, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fj Chain fj, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fk Chain fk, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fl Chain fl, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fm Chain fm, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fn Chain fn, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fo Chain fo, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fp Chain fp, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fq Chain fq, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fr Chain fr, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fs Chain fs, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ft Chain ft, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fu Chain fu, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fv Chain fv, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fw Chain fw, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fx Chain fx, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fy Chain fy, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|fz Chain fz, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ga Chain ga, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gb Chain gb, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gc Chain gc, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gd Chain gd, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ge Chain ge, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gf Chain gf, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gg Chain gg, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gh Chain gh, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gi Chain gi, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gj Chain gj, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gk Chain gk, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gl Chain gl, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gm Chain gm, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gn Chain gn, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|go Chain go, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gp Chain gp, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gq Chain gq, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gr Chain gr, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gs Chain gs, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gt Chain gt, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gu Chain gu, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gv Chain gv, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gw Chain gw, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gx Chain gx, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gy Chain gy, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|gz Chain gz, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|ha Chain ha, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|hb Chain hb, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|hc Chain hc, Major capsid protein [Tequatrovirus T4] &gt;pdb|7VS5|hd Chain hd, Major capsid protein [Tequatrovirus T4] &gt;pdb|9MKB|A4 Chain A4, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|A5 Chain A5, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|A7 Chain A7, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|A8 Chain A8, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|A9 Chain A9, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|AV Chain AV, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|AW Chain AW, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|AX Chain AX, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|AZ Chain AZ, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Ac Chain Ac, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Ad Chain Ad, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Ae Chain Ae, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Af Chain Af, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Ag Chain Ag, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Ah Chain Ah, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Ai Chain Ai, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Aj Chain Aj, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Ak Chain Ak, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Am Chain Am, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|An Chain An, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Ao Chain Ao, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Ap Chain Ap, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Au Chain Au, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Aw Chain Aw, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Ay Chain Ay, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|Az Chain Az, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|BI Chain BI, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|BJ Chain BJ, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|BK Chain BK, gp23, major capsid protein [Escherichia phage T4] &gt;pdb|9MKB|BM Chain BM, gp23, major capsid protein [Escherichia phage T4] &gt;gb|AAD42428.1| gp23 major head protein [Escherichia phage T4] &gt;emb|CAA25911.1| unnamed protein product [Tequatrovirus T4]</Hit_def>
+  <Hit_accession>NP_049787</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1064.29</Hsp_bit-score>
+      <Hsp_score>2751</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>521</Hsp_identity>
+      <Hsp_positive>521</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_371335560.1|</Hit_id>
+  <Hit_def>MULTISPECIES: phage capsid protein [Bacteria] &gt;gb|AAA32503.1| major capsid protein (g23) [Escherichia phage T4] &gt;gb|ADJ39895.1| major capsid protein [Enterobacteria phage T4T] &gt;gb|AIT75083.1| major capsid protein [Enterobacteria phage RB55] &gt;gb|AIT75357.1| major capsid protein [Enterobacteria phage RB59] &gt;gb|MFP9065535.1| hypothetical protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_371335560</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1063.14</Hsp_bit-score>
+      <Hsp_score>2748</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>520</Hsp_identity>
+      <Hsp_positive>521</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_411401423.1|</Hit_id>
+  <Hit_def>hypothetical protein [Enterococcus faecalis] &gt;gb|MFP9169943.1| hypothetical protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_411401423</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1061.6</Hsp_bit-score>
+      <Hsp_score>2744</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>519</Hsp_identity>
+      <Hsp_positive>520</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTTKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MT KTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|YP_010074593.1|</Hit_id>
+  <Hit_def>major head protein [Escherichia phage teqskov] &gt;gb|ENV0654619.1| phage capsid protein [Shigella sonnei] &gt;gb|ENV0663984.1| phage capsid protein [Shigella sonnei] &gt;gb|QHR64276.1| major capsid protein [Escherichia phage teqskov]</Hit_def>
+  <Hit_accession>YP_010074593</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1060.83</Hsp_bit-score>
+      <Hsp_score>2742</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>517</Hsp_identity>
+      <Hsp_positive>520</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPIASGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGTLVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDP+A+GAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAG LVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|UJD20117.1|</Hit_id>
+  <Hit_def>major head protein [Escherichia phage T4]</Hit_def>
+  <Hit_accession>UJD20117</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1060.44</Hsp_bit-score>
+      <Hsp_score>2741</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>519</Hsp_identity>
+      <Hsp_positive>520</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPTNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQP NSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|YP_010075713.1|</Hit_id>
+  <Hit_def>major head protein [Serratia phage PhiZZ30] &gt;gb|QIN97842.1| major capsid protein [Serratia phage PhiZZ30] &gt;emb|CAL1327423.1| Major capsid protein [Escherichia phage vB_Eco_EL]</Hit_def>
+  <Hit_accession>YP_010075713</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1060.06</Hsp_bit-score>
+      <Hsp_score>2740</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>517</Hsp_identity>
+      <Hsp_positive>520</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPIASGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTAGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDP+A+GAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTT GDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|YP_010072737.1|</Hit_id>
+  <Hit_def>major head protein [Escherichia phage vB_EcoM_Ozark] &gt;gb|QLF81860.1| major capsid protein [Escherichia phage vB_EcoM_Ozark]</Hit_def>
+  <Hit_accession>YP_010072737</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1059.67</Hsp_bit-score>
+      <Hsp_score>2739</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>517</Hsp_identity>
+      <Hsp_positive>521</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMSSPTGQVFALRAVYGKDPIAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQDTGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPM+SPTGQVFALRAVYGKDP+AAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQ+TGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|YP_010066370.1|</Hit_id>
+  <Hit_def>major head protein [Enterobacteria phage GiZh] &gt;gb|ANZ51598.1| major capsid protein [Enterobacteria phage GiZh] &gt;gb|EGI3119491.1| phage capsid protein [Escherichia coli]</Hit_def>
+  <Hit_accession>YP_010066370</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1059.28</Hsp_bit-score>
+      <Hsp_score>2738</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>517</Hsp_identity>
+      <Hsp_positive>520</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPIASDAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDP+A+ AKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|EOQ0467934.1|</Hit_id>
+  <Hit_def>phage capsid protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EOQ0467934</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1058.13</Hsp_bit-score>
+      <Hsp_score>2735</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>516</Hsp_identity>
+      <Hsp_positive>519</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPIASDAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGVLVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDP+A+ AKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAG LVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|UGO56632.1|</Hit_id>
+  <Hit_def>putative major capsid protein [Escherichia phage JLBYU22]</Hit_def>
+  <Hit_accession>UGO56632</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1057.36</Hsp_bit-score>
+      <Hsp_score>2733</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>516</Hsp_identity>
+      <Hsp_positive>519</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPIASDAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDATKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDP+A+ AKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TD TKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|YP_010065543.1|</Hit_id>
+  <Hit_def>major head protein [Citrobacter phage PhiZZ6] &gt;gb|EDB5153561.1| phage capsid protein [Salmonella enterica subsp. enterica serovar Braenderup] &gt;gb|QBQ79787.1| putative major capsid protein [Escherichia phage vB_EcoM_R5505] &gt;gb|UAW58604.1| major head protein [Escherichia phage vB_EcoM_ASO78A] &gt;gb|UGC97615.1| major capsid protein [Escherichia phage vB_Eco_OMNI12] &gt;gb|WPK37049.1| major capsid protein [Escherichia phage AV122]</Hit_def>
+  <Hit_accession>YP_010065543</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1057.36</Hsp_bit-score>
+      <Hsp_score>2733</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>516</Hsp_identity>
+      <Hsp_positive>519</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPIAADAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQDTGTVYLQASAQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDP+AA AKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQ+TGTVYLQAS QVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|YP_010077057.1|</Hit_id>
+  <Hit_def>major head protein [Yersinia phage fPS-2] &gt;gb|QBO63412.1| putative major capsid protein [Escherichia phage vB_EcoM_G2540] &gt;gb|WPK36224.1| major capsid protein [Escherichia phage AV119] &gt;gb|WPK36500.1| major capsid protein [Escherichia phage AV120] &gt;tpg|HFF1720159.1| phage capsid protein [Escherichia coli] &gt;emb|VEV89786.1| Phage major capsid protein [Yersinia phage fPS-2]</Hit_def>
+  <Hit_accession>YP_010077057</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1056.97</Hsp_bit-score>
+      <Hsp_score>2732</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>517</Hsp_identity>
+      <Hsp_positive>518</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTVVGDIYTHFFQETGTVYLQASAVVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQT VGDIYTHFFQETGTVYLQAS  VTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|YP_009197282.1|</Hit_id>
+  <Hit_def>major head protein [Escherichia phage slur07] &gt;emb|CUL02340.1| Major capsid protein Gp23 [Escherichia phage slur07]</Hit_def>
+  <Hit_accession>YP_009197282</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1056.2</Hsp_bit-score>
+      <Hsp_score>2730</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>515</Hsp_identity>
+      <Hsp_positive>520</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPIAADAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQDTGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKSLLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLASGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDP+AA AKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQ+TGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFK+LLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLA+GF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|ENR9336269.1|</Hit_id>
+  <Hit_def>phage capsid protein [Shigella sonnei] &gt;gb|YAF79427.1| major head protein [Escherichia phage CBDS-06]</Hit_def>
+  <Hit_accession>ENR9336269</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1056.2</Hsp_bit-score>
+      <Hsp_score>2730</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>514</Hsp_identity>
+      <Hsp_positive>519</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPIASGAKEAFHPMYGPDAMFSGQGAAKKFPALAADTQTTVGDIYTHFFQETGTVYLQASAQVTLDSGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDP+A+GAKEAFHPMYGPDAMFSGQGAAKKFPALAA TQTTVGDIYTHFFQETGTVYLQAS QVT+D+GATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|YP_009290441.1|</Hit_id>
+  <Hit_def>major head protein [Escherichia phage vB_EcoM-UFV13] &gt;gb|ANA50207.1| major capsid protein [Escherichia phage vB_EcoM-UFV13]</Hit_def>
+  <Hit_accession>YP_009290441</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1055.82</Hsp_bit-score>
+      <Hsp_score>2729</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>515</Hsp_identity>
+      <Hsp_positive>519</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPIASGAKEAFHPMYGPDAMFSGQGAAKKFAALAASTQTTVGDIYTHFFQDTGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQESFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDP+A+GAKEAFHPMYGPDAMFSGQGAAKKF ALAASTQTTVGDIYTHFFQ+TGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQE FNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|QDK04301.1|</Hit_id>
+  <Hit_def>major capsid protein [Escherichia phage VEc20] &gt;emb|CAO0807698.1| major capsid protein [Escherichia phage UTI-E4]</Hit_def>
+  <Hit_accession>QDK04301</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1055.82</Hsp_bit-score>
+      <Hsp_score>2729</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>515</Hsp_identity>
+      <Hsp_positive>518</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPIAADAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQDTGTVYLQASAQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAVQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDP+AA AKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQ+TGTVYLQAS QVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESA QAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|XKC22717.1|</Hit_id>
+  <Hit_def>hypothetical protein EC_65 [Escherichia phage OES_C-1] &gt;gb|XOF09185.1| hypothetical protein [Escherichia phage OES_C-2] &gt;gb|XOF09460.1| hypothetical protein [Escherichia phage OES_C-3]</Hit_def>
+  <Hit_accession>XKC22717</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1055.82</Hsp_bit-score>
+      <Hsp_score>2729</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>515</Hsp_identity>
+      <Hsp_positive>518</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPIAADAKEAFHPMYGPDAMFSGQGAAKKFPALAVSTQTTVGDIYTHFFQDTGTVYLQASVQVTIDAGATDATKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDP+AA AKEAFHPMYGPDAMFSGQGAAKKFPALA STQTTVGDIYTHFFQ+TGTVYLQASVQVTIDAGATDA KLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|EPV8871410.1|</Hit_id>
+  <Hit_def>phage capsid protein [Shigella sonnei]</Hit_def>
+  <Hit_accession>EPV8871410</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1055.43</Hsp_bit-score>
+      <Hsp_score>2728</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>515</Hsp_identity>
+      <Hsp_positive>519</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPIAADAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQDTGTVHLQASAQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDP+AA AKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQ+TGTV+LQAS QVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|QHR63776.1|</Hit_id>
+  <Hit_def>major capsid protein [Escherichia phage teqhal]</Hit_def>
+  <Hit_accession>QHR63776</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1055.05</Hsp_bit-score>
+      <Hsp_score>2727</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>513</Hsp_identity>
+      <Hsp_positive>519</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPIASGAKEAFHPMYGPDAMFSGQGAAKKFPALAADTQTTVGDIYTHFFQETGTVYLQASAQVTLDSGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAEAAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDP+A+GAKEAFHPMYGPDAMFSGQGAAKKFPALAA TQTTVGDIYTHFFQETGTVYLQAS QVT+D+GATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAE+AAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|QXV76219.1|</Hit_id>
+  <Hit_def>major capsid protein [Escherichia phage AugustSocin]</Hit_def>
+  <Hit_accession>QXV76219</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1054.66</Hsp_bit-score>
+      <Hsp_score>2726</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>515</Hsp_identity>
+      <Hsp_positive>518</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPVAAGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTTVGDIYTHFFQETGTVYLQASVQVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFSTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_qseq>
+      <Hsp_hseq>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDPIASGAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQTVVGDIYTHFFQETGTVYLQASAVVTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGFNTDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_hseq>
+      <Hsp_midline>MTIKTKAELLNKWKPLLEGEGLPEIANSKQAIIAKIFENQEKDFQTAPEYKDEKIAQAFGSFLTEAEIGGDHGYNATNIAAGQTSGAVTQIGPAVMGMVRRAIPNLIAFDICGVQPMNSPTGQVFALRAVYGKDP+A+GAKEAFHPMYGPDAMFSGQGAAKKFPALAASTQT VGDIYTHFFQETGTVYLQAS  VTIDAGATDAAKLDAEIKKQMEAGALVEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKAAYSIELAQDLRAVHGMDADAELSGILATEIMLEINREVVDWINYSAQVGKSGMTLTPGSKAGVFDFQDPIDIRGARWAGESFKALLFQIDKEAVEIARQTGRGEGNFIIASRNVVNVLASVDTGISYAAQGLATGF+TDTTKSVFAGVLGGKYRVYIDQYAKQDYFTVGYKGPNEMDAGIYYAPYVALTPLRGSDPKNFQPVMGFKTRYGIGINPFAESAAQAPASRIQSGMPSILNSLGKNAYFRRVYVKGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>990600796</Statistics_db-num>
+      <Statistics_db-len>376226345649</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

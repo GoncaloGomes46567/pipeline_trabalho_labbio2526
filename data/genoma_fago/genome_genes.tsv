@@ -1,0 +1,279 @@
+gene	locus_tag	product	start	end	strand	category
+rIIA	T4p001	riia lysis inhibitor	11	2189	-1	outros
+rIIA.1	T4p002	riia.1 hypothetical protein	2199	2403	-1	hipotetico
+60	T4p003	dna topoisomerase ii	2457	2990	-1	outros
+60.1	T4p004	gp60.1 hypothetical protein	2970	3351	-1	hipotetico
+mobA	T4p005	homing endonuclease	3653	3767	-1	outros
+39	T4p006	dna topoisomerase ii large subunit	3777	5328	-1	outros
+39.1	T4p007	gp39.1 hypothetical protein	5397	5595	-1	hipotetico
+39.2	T4p008	fmdb-like transcriptional regulator	5701	5839	-1	regulacao
+goF	T4p009	hypothetical protein	5841	6267	-1	hipotetico
+cef	T4p010	cef modifier of supressor trnas	6266	6482	-1	outros
+motB	T4p011	motb-like transcriptional regulator	6652	7141	-1	regulacao
+motB.1	T4p012	hypothetical protein	7290	7650	-1	hipotetico
+motB.2	T4p013	hypothetical protein	7660	8161	-1	hipotetico
+dexA	T4p014	exonuclease	8224	8908	-1	outros
+dexA.1	T4p015	dexa.1 hypothetical protein	8907	9150	-1	hipotetico
+dexA.2	T4p016	dextranase	9142	9388	-1	outros
+dda	T4p017	dda-like helicase	9409	10729	-1	replicacao
+dda.1	T4p018	dda.1 hypothetical protein	10725	11037	-1	hipotetico
+srd	T4p019	srd anti-sigma factor	11038	11785	-1	outros
+modA	T4p020	rna polymerase adp-ribosylase	11907	12510	-1	replicacao
+modB	T4p021	rna polymerase adp-ribosylase	12506	13130	-1	replicacao
+modA.2	T4p022	hypothetical protein	13197	13380	-1	hipotetico
+modA.3	T4p023	mrh transcription modulator under heat shock	13388	13859	-1	regulacao
+modA.4	T4p024	moda.4 hypothetical protein	13851	14016	-1	hipotetico
+srh	T4p025	decoy of host sigma32	14012	14216	-1	outros
+mrh	T4p026	mrh transcription modulator under heat shock	14190	14676	-1	regulacao
+mrh.1	T4p027	mrh.1 hypothetical protein	14684	15026	-1	hipotetico
+mrh.2	T4p028	mrh.2 hypothetical protein	15025	15232	-1	hipotetico
+soc	T4p029	virion structural protein	15330	15573	-1	outros
+segF	T4p030	segf homing endonuclease	15605	16280	-1	outros
+56	T4p031	dutpase	16269	16785	-1	outros
+dam	T4p032	dam family site-specific dna-(adenine-n6)-methyltransferase	16845	17625	-1	outros
+61	T4p033	dna primase	17934	18963	-1	replicacao
+61.1	T4p034	gp61.1 hypothetical protein	18965	19130	-1	hipotetico
+61.2	T4p035	gp61.2 hypothetical protein	19131	19758	-1	hipotetico
+sp	T4p036	spackle periplasmic	19757	20051	-1	outros
+61.4	T4p037	gp61.4 hypothetical protein	20111	20369	-1	hipotetico
+dmd	T4p038	dmd discriminator of mrna degradation	20370	20553	-1	outros
+41	T4p039	aaa family atpase	20611	22039	-1	outros
+40	T4p040	head vertex assembly chaperone	22048	22393	-1	estrutural
+uvsX	T4p041	recombinase	22385	23561	-1	outros
+segA	T4p042	homing endonuclease	23569	24235	-1	outros
+b-gt	T4p043	beta-glucosyltransferase	24399	25455	-1	outros
+42	T4p044	thymidylate synthase	25478	26219	-1	outros
+imm	T4p045	immunity to superinfection	26372	26624	-1	outros
+imm.1	T4p046	iduronate sulfatase	26635	27013	-1	outros
+43	T4p047	dna polymerase	27196	29893	-1	replicacao
+regA	T4p048	translation repressor	29971	30340	-1	regulacao
+62	T4p049	clamp loader of dna polymerase	30341	30905	-1	replicacao
+44	T4p050	clamp loader of dna polymerase	30906	31866	-1	replicacao
+45	T4p051	dna polymerase processivity factor	31916	32603	-1	replicacao
+rpbA	T4p052	rna polymerase binding	32658	33048	-1	replicacao
+45.2	T4p053	protein gp45.2	33057	33246	-1	outros
+46	T4p054	sbcc-like subunit of palindrome specific endonuclease	33301	34984	-1	outros
+46.1	T4p055	duf5487 family protein	34980	35187	-1	outros
+46.2	T4p056	gp46.2 hypothetical protein	35167	35431	-1	hipotetico
+47	T4p057	sbcd-like subunit of palindrome specific endonuclease	35427	36447	-1	outros
+47.1	T4p058	gp47.1 hypothetical predicted membrane protein	36443	36584	-1	hipotetico
+a-gt	T4p059	alpha-glucosyltransferase	36623	37826	-1	outros
+mobB	T4p060	homing endonuclease	37884	38679	-1	outros
+a-gt.2	T4p061	a-gt.2 hypothetical protein	38730	38922	-1	hipotetico
+a-gt.3	T4p062	a-gt.3 hypothetical protein	38906	39110	-1	hipotetico
+a-gt.4	T4p063	a-gt.4 family protein	39078	39396	-1	outros
+a-gt.5	T4p064	a-gt.5 hypothetical protein	39397	39616	-1	hipotetico
+55	T4p065	rna polymerase sigma factor	39599	40157	-1	replicacao
+55.1	T4p066	gp55.1 hypothetical protein	40192	40456	-1	hipotetico
+55.2	T4p067	gp55.2 hypothetical protein	40458	40785	-1	hipotetico
+55.3	T4p068	gp55.3 hypothetical protein	40798	41038	-1	hipotetico
+55.4	T4p069	gp55.4 conserved hypothetical protein	41038	41170	-1	hipotetico
+55.5	T4p070	gp55.5 conserved protein of unknown function	41177	41471	-1	outros
+55.6	T4p071	gp55.6 conserved hypothetical protein	41463	41646	-1	hipotetico
+nrdH	T4p072	nrdh glutaredoxin	41804	42113	-1	outros
+55.8	T4p073	gp55.8 conserved hypothetical predicted membrane protein	42115	42328	-1	hipotetico
+nrdG	T4p074	anaerobic ribonucleotide reductase small subunit	42445	42916	-1	outros
+mobC	T4p075	homing endonuclease	42905	43538	-1	outros
+nrdD	T4p076	anaerobic ribonucleoside reductase large subunit	43534	46385	-1	outros
+I-TevII	T4p077	i-tevii homing endonuclease	44835	45612	-1	outros
+49	T4p078	endonuclease vii	46381	46855	-1	outros
+49	T4p079	endonuclease vii	46381	46699	-1	outros
+pin	T4p080	inhibitor of host lon protease	46896	47382	-1	outros
+49.1	T4p081	gp49.1 conserved protein of unknown function	47365	47521	-1	outros
+49.2	T4p082	ribonucleotide reductase	47505	47826	-1	outros
+49.3	T4p083	gp49.3 hypothetical protein	47822	48131	-1	hipotetico
+nrdC	T4p084	nrdc thioredoxin	48127	48391	-1	outros
+nrdC.1	T4p085	hypothetical protein	48392	48635	-1	hipotetico
+nrdC.2	T4p086	hypothetical protein	48621	48936	-1	hipotetico
+nrdC.3	T4p087	hypothetical protein	48932	49859	-1	hipotetico
+nrdC.4	T4p088	hypothetical protein	49913	50915	-1	hipotetico
+nrdC.5	T4p089	nrdc.5 conserved hypothetical protein	50972	51995	-1	hipotetico
+nrdC.6	T4p090	hypothetical protein	52065	52893	-1	hipotetico
+nrdC.7	T4p091	nrdc.7 conserved hypothetical, predicted membrane protein	52900	53302	-1	hipotetico
+nrdC.8	T4p092	hypothetical protein	53357	53885	-1	hipotetico
+nrdC.9	T4p093	nrdc.9 conserved hypothetical protein	53945	54248	-1	hipotetico
+nrdC.10	T4p094	hypothetical protein	54342	55320	-1	hipotetico
+nrdC.11	T4p095	nucleotidyltransferase	55434	56445	-1	outros
+mobD	T4p096	homing endonuclease	56428	57208	-1	outros
+mobD.1	T4p097	mobd.1 conserved hypothetical protein	57282	57828	-1	hipotetico
+mobD.2	T4p098	mobd.2 conserved hypothetical protein	57827	57932	-1	hipotetico
+mobD.2a	T4p099	mobd.2a hypothetical protein	58048	58165	-1	hipotetico
+mobD.3	T4p100	mobd.3 hypothetical protein	58154	58349	-1	hipotetico
+mobD.4	T4p101	molybdopterin-guanine dinucleotide biosynthesis protein mobd	58351	58534	-1	outros
+mobD.5	T4p102	mobd.5 hypothetical protein	58533	58722	-1	hipotetico
+rI.-1	T4p103	starvation-inducible transcriptional regulator	58818	59205	-1	regulacao
+rI	T4p104	lysis inhibition	59201	59495	-1	outros
+rI.1	T4p105	ri.1 conserved hypothetical protein	59507	59720	-1	hipotetico
+tk	T4p106	thymidine kinase	59762	60344	-1	outros
+tk.1	T4p107	tk.1 conserved hypothetical protein	60345	60534	-1	hipotetico
+tk.2	T4p108	tk.2 conserved hypothetical protein	60530	60716	-1	hipotetico
+tk.3	T4p109	tk.2 conserved hypothetical protein	60712	60925	-1	hipotetico
+tk.4	T4p110	phosphatase	60921	61389	-1	outros
+vs	T4p111	valyl trna synthetase modifier	61385	61733	-1	outros
+vs.1	T4p112	hypothetical protein	61725	62271	-1	hipotetico
+regB	T4p113	endoribonuclease	62278	62740	-1	outros
+vs.3	T4p114	vs.3 conserved hypothetical protein	62799	63078	-1	hipotetico
+vs.4	T4p115	vs.4 conserved hypothetical protein	63077	63344	-1	hipotetico
+vs.5	T4p116	vs.5 conserved hypothetical protein	63380	63557	-1	hipotetico
+vs.6	T4p117	autonomous glycyl radical cofactor grca	63556	63919	-1	outros
+vs.7	T4p118	hypothetical protein	63926	64256	-1	hipotetico
+vs.8	T4p119	hypothetical protein	64252	64912	-1	hipotetico
+denV	T4p120	endonuclease v n-glycosylase uv repair enzyme	64938	65355	-1	outros
+ipII	T4p121	internal virion protein	65415	65718	-1	outros
+ipIII	T4p122	internal virion protein	65833	66415	-1	outros
+e	T4p123	glycoside hydrolase family protein	66502	66997	-1	outros
+nudE	T4p124	nudix hydrolase	67034	67490	-1	outros
+e.2	T4p125	hypothetical protein	67651	67960	-1	hipotetico
+e.3	T4p126	hypothetical protein	67956	68319	-1	hipotetico
+e.4	T4p127	hypothetical protein	68300	68693	-1	hipotetico
+e.5	T4p128	e.5 conserved hypothetical protein	68661	69270	-1	hipotetico
+e.6	T4p129	e.6 conserved hypothetical protein	69311	69905	-1	hipotetico
+e.7	T4p130	e.7 hypothetical protein	69967	70303	-1	hipotetico
+e.8	T4p131	e.8 conserved hypothetical protein	70359	70623	-1	hipotetico
+segB	T4p132	homing endonuclease	71252	71918	-1	outros
+trna.2	T4p133	trna.2 conserved hypothetical protein	72627	72915	-1	hipotetico
+trna.3	T4p134	trna.3 conserved hypothetical protein	72917	73328	-1	hipotetico
+trna.4	T4p135	hypothetical protein	73328	73514	-1	hipotetico
+ipI	T4p136	internal virion protein	73590	73878	-1	outros
+57B	T4p137	rna ligase	73951	74410	-1	replicacao
+57A	T4p138	tail fiber chaperone	74406	74649	-1	estrutural
+1	T4p139	deoxynucleoside monophosphate kinase	74648	75374	-1	outros
+3	T4p140	tail protein	75423	75954	-1	estrutural
+2	T4p141	dna end protector	76060	76885	-1	outros
+4	T4p142	head closure	76884	77337	-1	estrutural
+53	T4p143	baseplate wedge subunit	77384	77975	1	estrutural
+5	T4p144	baseplate hub subunit and tail lysozyme	77958	79686	1	estrutural
+repEB	T4p145	replication initiation protein	77980	78118	-1	outros
+repEA	T4p146	replication initiation protein	79084	79237	-1	outros
+5.1	T4p147	hypothetical protein	79720	80215	1	hipotetico
+segC	T4p148	homing endonuclease	80195	80618	1	outros
+5.3	T4p149	gp5.3 conserved hypothetical protein	80620	80791	1	hipotetico
+5.4	T4p150	paar motif of membran proteins	80778	81072	1	outros
+6	T4p151	baseplate wedge subunit	81080	83063	1	estrutural
+7	T4p152	baseplate wedge subunit	83059	86158	1	estrutural
+8	T4p153	baseplate wedge subunit	86150	87155	1	estrutural
+9	T4p154	baseplate wedge tail fiber protein connector	87218	88085	1	estrutural
+10	T4p155	baseplate wedge subunit	88084	89893	1	estrutural
+11	T4p156	baseplate wedge subunit	89892	90552	1	estrutural
+12	T4p157	tail collar fiber protein	90548	92132	1	estrutural
+wac	T4p158	fibritin neck whisker	92128	93592	1	outros
+13	T4p159	head-tail adaptor ad2	93623	94553	1	estrutural
+14	T4p160	head closure hc2	94554	95325	1	estrutural
+15	T4p161	tail sheath stabilizer	95366	96185	1	estrutural
+16	T4p162	terminase small subunit	96193	96688	1	outros
+17	T4p163	terminase large subunit	96671	98504	1	outros
+17	T4p164	terminase large subunit	96932	98504	1	outros
+17	T4p165	terminase large subunit	96986	98504	1	outros
+17	T4p166	large terminase protein	97253	98504	1	outros
+18	T4p167	tail sheath	98535	100515	1	estrutural
+19	T4p168	tail protein	100631	101123	1	estrutural
+20	T4p169	portal protein	101206	102781	1	estrutural
+67	T4p170	prohead	102780	103023	1	estrutural
+68	T4p171	head scaffolding protein	103022	103448	1	estrutural
+21	T4p172	head maturation protease	103447	104086	1	estrutural
+21	T4p173	head maturation protease	103513	104086	1	estrutural
+22	T4p174	head scaffolding protein	104116	104926	1	estrutural
+23	T4p175	major head protein	104944	106510	1	estrutural
+segD	T4p176	homing endonuclease	106560	107232	-1	outros
+24	T4p177	capsid vertex protein	107322	108606	1	estrutural
+rnlB	T4p178	rna ligase	108635	109640	-1	replicacao
+24.2	T4p179	gp24.2 conserved hypothetical protein	109649	109928	-1	hipotetico
+24.3	T4p180	gp24.3 conserved hypothetical protein	109914	110085	-1	hipotetico
+hoc	T4p181	hoc-like head decoration	110186	111317	-1	estrutural
+inh	T4p182	minor head protein inhibitor of protease	111326	112007	-1	estrutural
+segE	T4p183	homing endonuclease	112056	112674	1	outros
+uvsW	T4p184	dna helicase	112676	114440	1	replicacao
+uvsY.-2	T4p185	hypothetical protein	114495	114663	-1	hipotetico
+uvsY.-1	T4p186	uvsy.-1 conserved hypothetical protein	114689	114914	-1	hipotetico
+uvsY	T4p187	uvsy-like recombination mediator	114913	115327	-1	outros
+25	T4p188	baseplate wedge subunit	115403	115802	-1	estrutural
+26	T4p189	baseplate hub	115801	116428	-1	estrutural
+26'	T4p190	baseplate hub	115801	116089	-1	estrutural
+51	T4p191	baseplate hub assembly protein	116478	117228	1	estrutural
+27	T4p192	baseplate hub	117227	118403	1	estrutural
+28	T4p193	baseplate hub distal subunit	118347	118881	1	estrutural
+29	T4p194	baseplate hub subunit and tail length	118877	120650	1	estrutural
+48	T4p195	baseplate tail tube cap	120658	121753	1	estrutural
+54	T4p196	tail tube	121752	122715	1	estrutural
+alt.-3	T4p197	alt.-3 conserved hypothetical protein	122741	123032	-1	hipotetico
+alt.-2	T4p198	alt.-2 hypothetical protein	123064	123268	-1	hipotetico
+alt.-1	T4p199	alt.-1 hypothetical protein	123264	123450	-1	hipotetico
+alt	T4p200	alt-like rna polymerase adp-ribosyltransferase	123453	125502	-1	replicacao
+alt.1	T4p201	alt.1 conserved hypothetical protein	125559	125748	-1	hipotetico
+30	T4p202	dna ligase	125744	127208	-1	replicacao
+30.1	T4p203	duf3045 domain-containing protein	127204	127474	-1	outros
+30.2	T4p204	hypothetical protein	127473	128310	-1	hipotetico
+30.3	T4p205	hypothetical protein	128306	128765	-1	hipotetico
+30.3'	T4p206	gp30.3' hypothetical protein	128401	128629	-1	hipotetico
+30.4	T4p207	gp30.4 conserved hypothetical protein	128757	128964	-1	hipotetico
+30.5	T4p208	gp30.5 hypothetical protein	128960	129158	-1	hipotetico
+30.6	T4p209	gp30.6 conserved hypothetical protein	129157	129445	-1	hipotetico
+30.7	T4p210	gp30.7 conserved hypothetical protein	129486	129852	-1	hipotetico
+30.8	T4p211	gp30.8 conserved hypothetical protein	129920	130253	-1	hipotetico
+30.9	T4p212	gp30.9 conserved hypothetical protein	130363	130540	-1	hipotetico
+rIII	T4p213	lysis inhibition; accessory protein	130784	131033	-1	outros
+31	T4p214	head morphogenesis	131180	131516	-1	estrutural
+31.1	T4p215	sh3 beta-barrel fold-containing protein	131572	131881	-1	outros
+31.2	T4p216	hypothetical protein	131881	132118	-1	hipotetico
+cd	T4p217	dcmp deaminase	132117	132699	-1	outros
+cd.1	T4p218	cd.1 hypothetical protein	132695	133034	-1	hipotetico
+cd.2	T4p219	cd.2 conserved hypothetical protein	133030	133261	-1	hipotetico
+cd.3	T4p220	cd.3 conserved hypothetical protein	133333	133609	-1	hipotetico
+cd.4	T4p221	cd.4 conserved hypothetical protein	133611	133812	-1	hipotetico
+cd.5	T4p222	cd.5 hypothetical protein	133804	134032	-1	hipotetico
+pseT	T4p223	polynucleotide kinase	134001	134907	-1	outros
+pseT.1	T4p224	pset.1 conserved hypothetical protein	134907	135135	-1	hipotetico
+pseT.2	T4p225	rz-like spanin	135131	135431	-1	outros
+pseT.3	T4p226	rz-like spanin	135427	135781	-1	outros
+alc	T4p227	inhibitor of host transcription	135771	136275	-1	regulacao
+rnlA	T4p228	rna ligase and tail fiber protein attachment catalyst	136339	137464	-1	estrutural
+denA	T4p229	endonuclease	137516	137951	-1	outros
+nrdB	T4p230	ribonucleotide reductase class ia beta subunit	137954	139719	-1	outros
+I-TevIII	T4p231	endonuclease	138592	138886	-1	outros
+nrdB.1	T4p232	nrd.1 hypothetical protein	139715	139967	-1	hipotetico
+mobE	T4p233	homing endonuclease	139990	140416	-1	outros
+nrdA	T4p234	nrda-like aerobic ndp reductase large subunit	140415	142680	-1	outros
+nrdA.1	T4p235	hypothetical protein	142670	142997	-1	hipotetico
+nrdA.2	T4p236	nrda.2 conserved hypothetical protein	142950	143214	-1	hipotetico
+td	T4p237	thymidylate synthase	143234	145112	-1	outros
+I-TevI	T4p238	homing endonuclease	143693	144431	-1	outros
+frd	T4p239	dihydrofolate reductase	145108	145690	-1	outros
+frd.1	T4p240	duf5417 domain-containing protein	145761	146004	-1	outros
+frd.2	T4p241	hypothetical protein	146142	146529	-1	hipotetico
+frd.3	T4p242	hypothetical protein	146574	146802	-1	hipotetico
+32	T4p243	single strand dna binding protein	146947	147853	-1	outros
+SegG	T4p244	homing endonuclease	147908	148541	-1	outros
+59	T4p245	dna helicase loader	148542	149196	-1	replicacao
+33	T4p246	late promoter transcriptional regulator	149192	149531	-1	regulacao
+dsbA	T4p247	transcriptional regulator	149508	149778	-1	regulacao
+rnh	T4p248	rnaseh	149786	150704	-1	outros
+34	T4p249	tail fiber protein proximal subunit	150808	154678	1	estrutural
+35	T4p250	long tail fiber protein proximal connector	154686	155805	1	estrutural
+36	T4p251	hinge connector of long tail fiber protein distal connector	155867	156533	1	estrutural
+37	T4p252	long tail fiber protein distal subunit	156541	159622	1	estrutural
+38	T4p253	tail fiber assembly	159648	160200	1	estrutural
+t	T4p254	holin	160220	160877	1	lise
+asiA	T4p255	anti-sigma factor	160877	161150	-1	outros
+asiA.1	T4p256	asia.1 hypothetical protein	161162	161315	-1	hipotetico
+arn	T4p257	inhibitor of mrcbc restriction	161311	161590	-1	outros
+arn.1	T4p258	hypothetical protein	161673	161805	-1	hipotetico
+arn.2	T4p259	hypothetical protein	161875	162172	-1	hipotetico
+arn.3	T4p260	arn.3 conserved hypothetical protein	162171	162630	-1	hipotetico
+arn.4	T4p261	arn.4 conserved hypothetical protein	162626	162833	-1	hipotetico
+motA	T4p262	mota-like activator of middle period transcription	162966	163602	-1	regulacao
+motA.1	T4p263	mota.1 hypothetical predicted periplasmic protein	163729	163879	-1	hipotetico
+52	T4p264	dna topoisomerase ii	163875	165204	-1	outros
+52.1	T4p265	gp52.1 conserved hypothetical predicted membrane protein	165208	165349	-1	hipotetico
+ac	T4p266	ac acridine resistance protein	165341	165497	-1	outros
+stp	T4p267	activator of host prrc lysyl-trna endonuclease	165504	165585	-1	outros
+ndd	T4p268	ndd-like nucleoid disruption protein	165584	166040	-1	outros
+ndd.1	T4p269	hypothetical protein	166100	166316	-1	hipotetico
+ndd.2	T4p270	ndd.2 hypothetical predicted outer membrane protein	166324	166435	-1	hipotetico
+ndd.2a	T4p271	periplasmic protein	166431	166554	-1	outros
+ndd.3	T4p272	ndd.3 hypothetical predicted inner membrane protein	166547	166628	-1	hipotetico
+ndd.4	T4p273	ndd.4 hypothetical predicted inner membrane	166635	166764	-1	hipotetico
+ndd.5	T4p274	outer membrane protein	166814	166913	-1	outros
+ndd.6	T4p275	outer membrane protein	166909	166996	-1	outros
+denB	T4p276	denb-like dna endonuclease iv	167102	167660	-1	outros
+denB.1	T4p277	denb.1 hypothetical protein	167742	167937	-1	hipotetico
+rIIB	T4p278	riib lysis inhibitor	167964	168903	-1	outros

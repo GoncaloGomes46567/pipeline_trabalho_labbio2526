@@ -1,0 +1,13 @@
+ANÁLISE GLOBAL DO GENOMA DO BACTERIÓFAGO
+Fago analisado: Escherichia phage T4
+Accession (RefSeq): NC_000866.4
+Tamanho do genoma: 168903 bp
+Número total de CDS: 278
+
+Distribuição funcional dos genes:
+ - outros: 102
+ - hipotetico: 105
+ - regulacao: 10
+ - replicacao: 16
+ - estrutural: 44
+ - lise: 1
